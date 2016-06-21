@@ -504,6 +504,32 @@
 		EA89124F1D18DB850018773C /* HeEnrollVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA89124D1D18DB850018773C /* HeEnrollVC.xib */; };
 		EA8912531D18DBCD0018773C /* HeFindPasswordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8912511D18DBCD0018773C /* HeFindPasswordVC.m */; };
 		EA8912541D18DBCD0018773C /* HeFindPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8912521D18DBCD0018773C /* HeFindPasswordVC.xib */; };
+		EA8918991D1911120018773C /* HeSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8918971D1911120018773C /* HeSettingVC.m */; };
+		EA89189A1D1911120018773C /* HeSettingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8918981D1911120018773C /* HeSettingVC.xib */; };
+		EAE6B4CA1D191457000DE707 /* HeOrderManagementVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE6B4C81D191457000DE707 /* HeOrderManagementVC.m */; };
+		EAE6B4CB1D191457000DE707 /* HeOrderManagementVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAE6B4C91D191457000DE707 /* HeOrderManagementVC.xib */; };
+		EAE6B4CF1D19146F000DE707 /* HeOrderQueryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE6B4CD1D19146F000DE707 /* HeOrderQueryVC.m */; };
+		EAE6B4D01D19146F000DE707 /* HeOrderQueryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAE6B4CE1D19146F000DE707 /* HeOrderQueryVC.xib */; };
+		EAE6B4D41D1914A2000DE707 /* HeShopManagementVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE6B4D21D1914A2000DE707 /* HeShopManagementVC.m */; };
+		EAE6B4D51D1914A2000DE707 /* HeShopManagementVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAE6B4D31D1914A2000DE707 /* HeShopManagementVC.xib */; };
+		EAE6B4DB1D19157A000DE707 /* HeShopManagementCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE6B4DA1D19157A000DE707 /* HeShopManagementCell.m */; };
+		EAE6B4DE1D19158D000DE707 /* HeOrderQueryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE6B4DD1D19158D000DE707 /* HeOrderQueryCell.m */; };
+		EAE6B4E11D19159F000DE707 /* HeOrderManagementCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE6B4E01D19159F000DE707 /* HeOrderManagementCell.m */; };
+		EAE6B4E61D1916FA000DE707 /* HeOrderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE6B4E41D1916FA000DE707 /* HeOrderVC.m */; };
+		EAE6B4E71D1916FA000DE707 /* HeOrderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAE6B4E51D1916FA000DE707 /* HeOrderVC.xib */; };
+		EAE6B4EB1D191754000DE707 /* HeOrderTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE6B4EA1D191754000DE707 /* HeOrderTableCell.m */; };
+		EAE6B4EE1D191764000DE707 /* HeBookOrderTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE6B4ED1D191764000DE707 /* HeBookOrderTableCell.m */; };
+		EAE6B4F61D191C53000DE707 /* tabbar_normal_background.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE6B4F41D191C53000DE707 /* tabbar_normal_background.png */; };
+		EAE6B4F71D191C53000DE707 /* tabbar_normal_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE6B4F51D191C53000DE707 /* tabbar_normal_background@2x.png */; };
+		EAE6B4FF1D191C64000DE707 /* comonDefaultImage.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE6B4F81D191C64000DE707 /* comonDefaultImage.png */; };
+		EAE6B5001D191C64000DE707 /* icon-qq.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE6B4F91D191C64000DE707 /* icon-qq.png */; };
+		EAE6B5011D191C64000DE707 /* icon-weibo.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE6B4FA1D191C64000DE707 /* icon-weibo.png */; };
+		EAE6B5021D191C64000DE707 /* icon-weixin.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE6B4FB1D191C64000DE707 /* icon-weixin.png */; };
+		EAE6B5031D191C64000DE707 /* NavBarIOS7_white.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE6B4FC1D191C64000DE707 /* NavBarIOS7_white.png */; };
+		EAE6B5041D191C64000DE707 /* NavBarIOS7.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE6B4FD1D191C64000DE707 /* NavBarIOS7.png */; };
+		EAE6B5051D191C64000DE707 /* navigationBar_back_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE6B4FE1D191C64000DE707 /* navigationBar_back_icon.png */; };
+		EAE6B51B1D191D6A000DE707 /* user_placeholder_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE6B51A1D191D6A000DE707 /* user_placeholder_icon.png */; };
+		EAE6B5221D192548000DE707 /* HeInstructionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE6B5211D192548000DE707 /* HeInstructionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1468,6 +1494,43 @@
 		EA8912501D18DBCD0018773C /* HeFindPasswordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeFindPasswordVC.h; sourceTree = "<group>"; };
 		EA8912511D18DBCD0018773C /* HeFindPasswordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeFindPasswordVC.m; sourceTree = "<group>"; };
 		EA8912521D18DBCD0018773C /* HeFindPasswordVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeFindPasswordVC.xib; sourceTree = "<group>"; };
+		EA8918961D1911120018773C /* HeSettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeSettingVC.h; sourceTree = "<group>"; };
+		EA8918971D1911120018773C /* HeSettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeSettingVC.m; sourceTree = "<group>"; };
+		EA8918981D1911120018773C /* HeSettingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeSettingVC.xib; sourceTree = "<group>"; };
+		EAE6B4C71D191457000DE707 /* HeOrderManagementVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeOrderManagementVC.h; sourceTree = "<group>"; };
+		EAE6B4C81D191457000DE707 /* HeOrderManagementVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeOrderManagementVC.m; sourceTree = "<group>"; };
+		EAE6B4C91D191457000DE707 /* HeOrderManagementVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeOrderManagementVC.xib; sourceTree = "<group>"; };
+		EAE6B4CC1D19146F000DE707 /* HeOrderQueryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeOrderQueryVC.h; sourceTree = "<group>"; };
+		EAE6B4CD1D19146F000DE707 /* HeOrderQueryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeOrderQueryVC.m; sourceTree = "<group>"; };
+		EAE6B4CE1D19146F000DE707 /* HeOrderQueryVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeOrderQueryVC.xib; sourceTree = "<group>"; };
+		EAE6B4D11D1914A2000DE707 /* HeShopManagementVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeShopManagementVC.h; sourceTree = "<group>"; };
+		EAE6B4D21D1914A2000DE707 /* HeShopManagementVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeShopManagementVC.m; sourceTree = "<group>"; };
+		EAE6B4D31D1914A2000DE707 /* HeShopManagementVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeShopManagementVC.xib; sourceTree = "<group>"; };
+		EAE6B4D91D19157A000DE707 /* HeShopManagementCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeShopManagementCell.h; sourceTree = "<group>"; };
+		EAE6B4DA1D19157A000DE707 /* HeShopManagementCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeShopManagementCell.m; sourceTree = "<group>"; };
+		EAE6B4DC1D19158D000DE707 /* HeOrderQueryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeOrderQueryCell.h; sourceTree = "<group>"; };
+		EAE6B4DD1D19158D000DE707 /* HeOrderQueryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeOrderQueryCell.m; sourceTree = "<group>"; };
+		EAE6B4DF1D19159F000DE707 /* HeOrderManagementCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeOrderManagementCell.h; sourceTree = "<group>"; };
+		EAE6B4E01D19159F000DE707 /* HeOrderManagementCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeOrderManagementCell.m; sourceTree = "<group>"; };
+		EAE6B4E31D1916FA000DE707 /* HeOrderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeOrderVC.h; sourceTree = "<group>"; };
+		EAE6B4E41D1916FA000DE707 /* HeOrderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeOrderVC.m; sourceTree = "<group>"; };
+		EAE6B4E51D1916FA000DE707 /* HeOrderVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeOrderVC.xib; sourceTree = "<group>"; };
+		EAE6B4E91D191754000DE707 /* HeOrderTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeOrderTableCell.h; sourceTree = "<group>"; };
+		EAE6B4EA1D191754000DE707 /* HeOrderTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeOrderTableCell.m; sourceTree = "<group>"; };
+		EAE6B4EC1D191764000DE707 /* HeBookOrderTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeBookOrderTableCell.h; sourceTree = "<group>"; };
+		EAE6B4ED1D191764000DE707 /* HeBookOrderTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeBookOrderTableCell.m; sourceTree = "<group>"; };
+		EAE6B4F41D191C53000DE707 /* tabbar_normal_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_normal_background.png; sourceTree = "<group>"; };
+		EAE6B4F51D191C53000DE707 /* tabbar_normal_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_normal_background@2x.png"; sourceTree = "<group>"; };
+		EAE6B4F81D191C64000DE707 /* comonDefaultImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comonDefaultImage.png; sourceTree = "<group>"; };
+		EAE6B4F91D191C64000DE707 /* icon-qq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-qq.png"; sourceTree = "<group>"; };
+		EAE6B4FA1D191C64000DE707 /* icon-weibo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-weibo.png"; sourceTree = "<group>"; };
+		EAE6B4FB1D191C64000DE707 /* icon-weixin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-weixin.png"; sourceTree = "<group>"; };
+		EAE6B4FC1D191C64000DE707 /* NavBarIOS7_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBarIOS7_white.png; sourceTree = "<group>"; };
+		EAE6B4FD1D191C64000DE707 /* NavBarIOS7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBarIOS7.png; sourceTree = "<group>"; };
+		EAE6B4FE1D191C64000DE707 /* navigationBar_back_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationBar_back_icon.png; sourceTree = "<group>"; };
+		EAE6B51A1D191D6A000DE707 /* user_placeholder_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user_placeholder_icon.png; sourceTree = "<group>"; };
+		EAE6B5201D192548000DE707 /* HeInstructionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeInstructionView.h; sourceTree = "<group>"; };
+		EAE6B5211D192548000DE707 /* HeInstructionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeInstructionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1560,6 +1623,7 @@
 		EA890C201D18D0AF0018773C /* kunyuanseller */ = {
 			isa = PBXGroup;
 			children = (
+				EAE6B4F01D191C00000DE707 /* Resource */,
 				EA890E051D18D9E60018773C /* Custom */,
 				EA890DE11D18D9270018773C /* Controller */,
 				EA890DE01D18D9230018773C /* View */,
@@ -2114,6 +2178,10 @@
 		EA890DE01D18D9230018773C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EAE6B4E81D191720000DE707 /* Order */,
+				EAE6B4D81D19152D000DE707 /* ShopManagement */,
+				EAE6B4D71D19152B000DE707 /* OrderQuery */,
+				EAE6B4D61D191528000DE707 /* OrderManagement */,
 				EA890E041D18D9A20018773C /* BaseCell */,
 			);
 			path = View;
@@ -2122,6 +2190,12 @@
 		EA890DE11D18D9270018773C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				EAE6B51F1D19253D000DE707 /* HeInstructionView */,
+				EAE6B4E21D1916DD000DE707 /* Order */,
+				EA8918951D1910E40018773C /* Setting */,
+				EA8918941D1910DF0018773C /* ShopManagement */,
+				EA8918931D1910C60018773C /* OrderQuery */,
+				EA8918921D1910AF0018773C /* OrderManagement */,
 				EA89124A1D18DB710018773C /* Login */,
 				EA890DF01D18D9500018773C /* RDVTabBarController */,
 				EA890DE21D18D9300018773C /* Base */,
@@ -3462,6 +3536,144 @@
 			name = Login;
 			sourceTree = "<group>";
 		};
+		EA8918921D1910AF0018773C /* OrderManagement */ = {
+			isa = PBXGroup;
+			children = (
+				EAE6B4C71D191457000DE707 /* HeOrderManagementVC.h */,
+				EAE6B4C81D191457000DE707 /* HeOrderManagementVC.m */,
+				EAE6B4C91D191457000DE707 /* HeOrderManagementVC.xib */,
+			);
+			name = OrderManagement;
+			sourceTree = "<group>";
+		};
+		EA8918931D1910C60018773C /* OrderQuery */ = {
+			isa = PBXGroup;
+			children = (
+				EAE6B4CC1D19146F000DE707 /* HeOrderQueryVC.h */,
+				EAE6B4CD1D19146F000DE707 /* HeOrderQueryVC.m */,
+				EAE6B4CE1D19146F000DE707 /* HeOrderQueryVC.xib */,
+			);
+			name = OrderQuery;
+			sourceTree = "<group>";
+		};
+		EA8918941D1910DF0018773C /* ShopManagement */ = {
+			isa = PBXGroup;
+			children = (
+				EAE6B4D11D1914A2000DE707 /* HeShopManagementVC.h */,
+				EAE6B4D21D1914A2000DE707 /* HeShopManagementVC.m */,
+				EAE6B4D31D1914A2000DE707 /* HeShopManagementVC.xib */,
+			);
+			name = ShopManagement;
+			sourceTree = "<group>";
+		};
+		EA8918951D1910E40018773C /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				EA8918961D1911120018773C /* HeSettingVC.h */,
+				EA8918971D1911120018773C /* HeSettingVC.m */,
+				EA8918981D1911120018773C /* HeSettingVC.xib */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		EAE6B4D61D191528000DE707 /* OrderManagement */ = {
+			isa = PBXGroup;
+			children = (
+				EAE6B4DF1D19159F000DE707 /* HeOrderManagementCell.h */,
+				EAE6B4E01D19159F000DE707 /* HeOrderManagementCell.m */,
+			);
+			name = OrderManagement;
+			sourceTree = "<group>";
+		};
+		EAE6B4D71D19152B000DE707 /* OrderQuery */ = {
+			isa = PBXGroup;
+			children = (
+				EAE6B4DC1D19158D000DE707 /* HeOrderQueryCell.h */,
+				EAE6B4DD1D19158D000DE707 /* HeOrderQueryCell.m */,
+			);
+			name = OrderQuery;
+			sourceTree = "<group>";
+		};
+		EAE6B4D81D19152D000DE707 /* ShopManagement */ = {
+			isa = PBXGroup;
+			children = (
+				EAE6B4D91D19157A000DE707 /* HeShopManagementCell.h */,
+				EAE6B4DA1D19157A000DE707 /* HeShopManagementCell.m */,
+			);
+			name = ShopManagement;
+			sourceTree = "<group>";
+		};
+		EAE6B4E21D1916DD000DE707 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				EAE6B4E31D1916FA000DE707 /* HeOrderVC.h */,
+				EAE6B4E41D1916FA000DE707 /* HeOrderVC.m */,
+				EAE6B4E51D1916FA000DE707 /* HeOrderVC.xib */,
+			);
+			name = Order;
+			sourceTree = "<group>";
+		};
+		EAE6B4E81D191720000DE707 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				EAE6B4E91D191754000DE707 /* HeOrderTableCell.h */,
+				EAE6B4EA1D191754000DE707 /* HeOrderTableCell.m */,
+				EAE6B4EC1D191764000DE707 /* HeBookOrderTableCell.h */,
+				EAE6B4ED1D191764000DE707 /* HeBookOrderTableCell.m */,
+			);
+			name = Order;
+			sourceTree = "<group>";
+		};
+		EAE6B4F01D191C00000DE707 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EAE6B4F31D191C43000DE707 /* TabbarIcon */,
+				EAE6B4F21D191C29000DE707 /* User */,
+				EAE6B4F11D191C1A000DE707 /* Custom */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		EAE6B4F11D191C1A000DE707 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				EAE6B4F81D191C64000DE707 /* comonDefaultImage.png */,
+				EAE6B4F91D191C64000DE707 /* icon-qq.png */,
+				EAE6B4FA1D191C64000DE707 /* icon-weibo.png */,
+				EAE6B4FB1D191C64000DE707 /* icon-weixin.png */,
+				EAE6B4FC1D191C64000DE707 /* NavBarIOS7_white.png */,
+				EAE6B4FD1D191C64000DE707 /* NavBarIOS7.png */,
+				EAE6B4FE1D191C64000DE707 /* navigationBar_back_icon.png */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
+		EAE6B4F21D191C29000DE707 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				EAE6B51A1D191D6A000DE707 /* user_placeholder_icon.png */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		EAE6B4F31D191C43000DE707 /* TabbarIcon */ = {
+			isa = PBXGroup;
+			children = (
+				EAE6B4F41D191C53000DE707 /* tabbar_normal_background.png */,
+				EAE6B4F51D191C53000DE707 /* tabbar_normal_background@2x.png */,
+			);
+			name = TabbarIcon;
+			sourceTree = "<group>";
+		};
+		EAE6B51F1D19253D000DE707 /* HeInstructionView */ = {
+			isa = PBXGroup;
+			children = (
+				EAE6B5201D192548000DE707 /* HeInstructionView.h */,
+				EAE6B5211D192548000DE707 /* HeInstructionView.m */,
+			);
+			name = HeInstructionView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -3529,6 +3741,7 @@
 				TargetAttributes = {
 					EA890C1D1D18D0AF0018773C = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2HE3DDFLNU;
 					};
 					EA890C361D18D0AF0018773C = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -3569,13 +3782,16 @@
 				EA8912261D18D9E90018773C /* btn_021.disable@2x.png in Resources */,
 				EA890DAF1D18D8DC0018773C /* ShareSDKUI.bundle in Resources */,
 				EA8912251D18D9E90018773C /* btn_020@2x.png in Resources */,
+				EAE6B4D51D1914A2000DE707 /* HeShopManagementVC.xib in Resources */,
 				EA890DBC1D18D8DD0018773C /* zbar-back.png in Resources */,
 				EA89114E1D18D9E80018773C /* whiteArrow.png in Resources */,
 				EA8912191D18D9E90018773C /* sr_refresh.png in Resources */,
 				EA89114D1D18D9E80018773C /* grayArrow@2x.png in Resources */,
 				EA89124F1D18DB850018773C /* HeEnrollVC.xib in Resources */,
 				EA8912451D18D9E90018773C /* LICENSE in Resources */,
+				EAE6B5031D191C64000DE707 /* NavBarIOS7_white.png in Resources */,
 				EA8912371D18D9E90018773C /* FontAwesome.ttf in Resources */,
+				EAE6B5051D191C64000DE707 /* navigationBar_back_icon.png in Resources */,
 				EA8911341D18D9E80018773C /* fail@3x.png in Resources */,
 				EA890DEA1D18D9300018773C /* HeBaseViewController.xib in Resources */,
 				EA8911501D18D9E80018773C /* LICENSE.txt in Resources */,
@@ -3583,19 +3799,24 @@
 				EA8911991D18D9E80018773C /* arrow_down1@2x.png in Resources */,
 				EA89114C1D18D9E80018773C /* grayArrow.png in Resources */,
 				EA8912241D18D9E90018773C /* btn_020.press@2x.png in Resources */,
+				EAE6B5041D191C64000DE707 /* NavBarIOS7.png in Resources */,
 				EA890DDD1D18D8FC0018773C /* loading_anim1.png in Resources */,
+				EAE6B4FF1D191C64000DE707 /* comonDefaultImage.png in Resources */,
 				EA890DBE1D18D8DD0018773C /* zbar-helpicons.png in Resources */,
 				EA890C311D18D0AF0018773C /* LaunchScreen.storyboard in Resources */,
 				EA890C2E1D18D0AF0018773C /* Assets.xcassets in Resources */,
 				EA8911491D18D9E80018773C /* blueArrow@2x.png in Resources */,
 				EA890DB21D18D8DC0018773C /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				EA8911831D18D9E80018773C /* MJRefresh.bundle in Resources */,
+				EAE6B5021D191C64000DE707 /* icon-weixin.png in Resources */,
+				EAE6B5011D191C64000DE707 /* icon-weibo.png in Resources */,
 				EA89113D1D18D9E80018773C /* down_dark.png in Resources */,
 				EA890DFE1D18D9760018773C /* HeTabBarVC.xib in Resources */,
 				EA8911321D18D9E80018773C /* Expression.plist in Resources */,
 				EA8911471D18D9E80018773C /* blackArrow@2x.png in Resources */,
 				EA89122B1D18D9E90018773C /* TSLocateView.xib in Resources */,
 				EA8911481D18D9E80018773C /* blueArrow.png in Resources */,
+				EAE6B4E71D1916FA000DE707 /* HeOrderVC.xib in Resources */,
 				EA8911971D18D9E80018773C /* arrow_down.png in Resources */,
 				EA8912281D18D9E90018773C /* btn_021@2x.png in Resources */,
 				EA89121A1D18D9E90018773C /* sr_refresh@2X.png in Resources */,
@@ -3603,6 +3824,8 @@
 				EA8911301D18D9E80018773C /* back-arrow@3x.png in Resources */,
 				EA89112F1D18D9E80018773C /* back-arrow@2x.png in Resources */,
 				EA890DB81D18D8DC0018773C /* ShareSDK.bundle in Resources */,
+				EAE6B5001D191C64000DE707 /* icon-qq.png in Resources */,
+				EAE6B4D01D19146F000DE707 /* HeOrderQueryVC.xib in Resources */,
 				EA8911091D18D9E80018773C /* BrowserView.xib in Resources */,
 				EA89121D1D18D9E90018773C /* LICENSE.txt in Resources */,
 				EA8911451D18D9E80018773C /* i2KEPCSingleComponentPickerView.xib in Resources */,
@@ -3620,6 +3843,8 @@
 				EA8912271D18D9E90018773C /* btn_021.press@2x.png in Resources */,
 				EA890DBF1D18D8DD0018773C /* zbar-samples.png in Resources */,
 				EA890C2C1D18D0AF0018773C /* Main.storyboard in Resources */,
+				EAE6B4F71D191C53000DE707 /* tabbar_normal_background@2x.png in Resources */,
+				EAE6B4CB1D191457000DE707 /* HeOrderManagementVC.xib in Resources */,
 				EA890DEF1D18D9380018773C /* HeLoginVC.xib in Resources */,
 				EA8911941D18D9E80018773C /* LICENSE in Resources */,
 				EA8911331D18D9E80018773C /* fail@2x.png in Resources */,
@@ -3627,15 +3852,18 @@
 				EA89119A1D18D9E80018773C /* arrow_down@2x.png in Resources */,
 				EA8912301D18D9E90018773C /* TZImagePickerController.bundle in Resources */,
 				EA8911361D18D9E80018773C /* refresh@3x.png in Resources */,
+				EA89189A1D1911120018773C /* HeSettingVC.xib in Resources */,
 				EA8912201D18D9E90018773C /* SVProgressHUD.bundle in Resources */,
 				EA8912541D18DBCD0018773C /* HeFindPasswordVC.xib in Resources */,
 				EA89115A1D18D9E80018773C /* IQKeyboardManager.bundle in Resources */,
 				EA890DB61D18D8DC0018773C /* README.txt in Resources */,
+				EAE6B51B1D191D6A000DE707 /* user_placeholder_icon.png in Resources */,
 				EA890DB41D18D8DC0018773C /* WeiboSDK.bundle in Resources */,
 				EA8911381D18D9E80018773C /* success@3x.png in Resources */,
 				EA8911311D18D9E80018773C /* ClippedExpression.bundle in Resources */,
 				EA8911461D18D9E80018773C /* blackArrow.png in Resources */,
 				EA8911741D18D9E80018773C /* LICENSE in Resources */,
+				EAE6B4F61D191C53000DE707 /* tabbar_normal_background.png in Resources */,
 				EA8911691D18D9E80018773C /* MBProgressHUD.bundle in Resources */,
 				EA8911411D18D9E80018773C /* i2KEPCDatePickerView.xib in Resources */,
 				EA89114F1D18D9E80018773C /* whiteArrow@2x.png in Resources */,
@@ -3679,6 +3907,7 @@
 				EA89120A1D18D9E90018773C /* NSData+ImageContentType.m in Sources */,
 				EA8911DF1D18D9E90018773C /* RACSequence.m in Sources */,
 				EA89110C1D18D9E80018773C /* DCWebImageManager.m in Sources */,
+				EAE6B4D41D1914A2000DE707 /* HeShopManagementVC.m in Sources */,
 				EA890D891D18D8DC0018773C /* rscode.c in Sources */,
 				EA8911921D18D9E80018773C /* NSString+MLExpression.m in Sources */,
 				EA890DAB1D18D8DC0018773C /* QNDes.m in Sources */,
@@ -3686,10 +3915,12 @@
 				EA8911F11D18D9E90018773C /* RACValueTransformer.m in Sources */,
 				EA8911CE1D18D9E90018773C /* RACEmptySignal.m in Sources */,
 				EA8911CD1D18D9E90018773C /* RACEmptySequence.m in Sources */,
+				EAE6B4EB1D191754000DE707 /* HeOrderTableCell.m in Sources */,
 				EA8912351D18D9E90018773C /* TZVideoPlayerController.m in Sources */,
 				EA890D9A1D18D8DC0018773C /* QNDnspodFree.m in Sources */,
 				EA8911D91D18D9E90018773C /* RACPassthroughSubscriber.m in Sources */,
 				EA8910F21D18D9E80018773C /* AFURLResponseSerialization.m in Sources */,
+				EAE6B4E61D1916FA000DE707 /* HeOrderVC.m in Sources */,
 				EA8911A31D18D9E80018773C /* NYSegment.m in Sources */,
 				EA890D921D18D8DC0018773C /* QNFile.m in Sources */,
 				EA8912481D18D9E90018773C /* YLImageView.m in Sources */,
@@ -3726,6 +3957,7 @@
 				EA8911171D18D9E80018773C /* DFBaseViewController.m in Sources */,
 				EA8912441D18D9E90018773C /* VRGCalendarView.m in Sources */,
 				EA890D871D18D8DC0018773C /* qrinput.c in Sources */,
+				EAE6B4DB1D19157A000DE707 /* HeShopManagementCell.m in Sources */,
 				EA8911C01D18D9E90018773C /* RACArraySequence.m in Sources */,
 				EA8910F01D18D9E80018773C /* AFURLConnectionOperation.m in Sources */,
 				EA8912061D18D9E90018773C /* SAMTextView.m in Sources */,
@@ -3785,6 +4017,7 @@
 				EA8911761D18D9E80018773C /* MJRefreshBackFooter.m in Sources */,
 				EA89120B1D18D9E90018773C /* SDImageCache.m in Sources */,
 				EA8911041D18D9E80018773C /* ASIHTTPRequest.m in Sources */,
+				EAE6B5221D192548000DE707 /* HeInstructionView.m in Sources */,
 				EA8910F61D18D9E80018773C /* AFNetworkActivityIndicatorManager.m in Sources */,
 				EA8911C71D18D9E90018773C /* RACCompoundDisposableProvider.d in Sources */,
 				EA890D9C1D18D8DC0018773C /* QNResponseInfo.m in Sources */,
@@ -3932,10 +4165,12 @@
 				EA89110B1D18D9E80018773C /* DCPicScrollView.m in Sources */,
 				EA890D9B1D18D8DC0018773C /* QNHttpManager.m in Sources */,
 				EA8911061D18D9E80018773C /* ASINetworkQueue.m in Sources */,
+				EAE6B4E11D19159F000DE707 /* HeOrderManagementCell.m in Sources */,
 				EA890DD01D18D8F70018773C /* EaseChineseToPinyin.m in Sources */,
 				EA8911021D18D9E80018773C /* ASIDownloadCache.m in Sources */,
 				EA8911151D18D9E80018773C /* DFBaseTabBarController.m in Sources */,
 				EA8911D71D18D9E90018773C /* RACMulticastConnection.m in Sources */,
+				EAE6B4CF1D19146F000DE707 /* HeOrderQueryVC.m in Sources */,
 				EA890D951D18D8DC0018773C /* QNRecord.m in Sources */,
 				EA8912031D18D9E90018773C /* UITextField+RACSignalSupport.m in Sources */,
 				EA8911B71D18D9E90018773C /* NSObject+RACPropertySubscribing.m in Sources */,
@@ -3958,6 +4193,7 @@
 				EA890DD41D18D8F70018773C /* EaseEmotionEscape.m in Sources */,
 				EA89123F1D18D9E90018773C /* VIPhotoView.m in Sources */,
 				EA8911221D18D9E80018773C /* DFReachabilityUtil.m in Sources */,
+				EA8918991D1911120018773C /* HeSettingVC.m in Sources */,
 				EA8911BF1D18D9E90018773C /* NSUserDefaults+RACSupport.m in Sources */,
 				EA89110A1D18D9E80018773C /* CPTextViewPlaceholder.m in Sources */,
 				EA89123C1D18D9E90018773C /* UIResponder+Router.m in Sources */,
@@ -4011,6 +4247,7 @@
 				EA8911D21D18D9E90018773C /* RACImmediateScheduler.m in Sources */,
 				EA890DA31D18D8DC0018773C /* QNReachability.m in Sources */,
 				EA890CA41D18D8C00018773C /* NSString+Valid.m in Sources */,
+				EAE6B4CA1D191457000DE707 /* HeOrderManagementVC.m in Sources */,
 				EA8912321D18D9E90018773C /* TZPhotoPickerController.m in Sources */,
 				EA8911E51D18D9E90018773C /* RACStream.m in Sources */,
 				EA89124E1D18DB850018773C /* HeEnrollVC.m in Sources */,
@@ -4024,11 +4261,13 @@
 				EA890D9E1D18D8DC0018773C /* QNStats.m in Sources */,
 				EA89118A1D18D9E80018773C /* MLLabel.m in Sources */,
 				EA8910FF1D18D9E80018773C /* ASIAuthenticationDialog.m in Sources */,
+				EAE6B4DE1D19158D000DE707 /* HeOrderQueryCell.m in Sources */,
 				EA8912161D18D9E90018773C /* UIImageView+HighlightedWebCache.m in Sources */,
 				EA890DD31D18D8F70018773C /* EaseEmojiEmoticons.m in Sources */,
 				EA89111B1D18D9E80018773C /* DFBaseUploadDataService.m in Sources */,
 				EA8912491D18D9E90018773C /* ZJSwitch.m in Sources */,
 				EA89120C1D18D9E90018773C /* SDWebImageCompat.m in Sources */,
+				EAE6B4EE1D191764000DE707 /* HeBookOrderTableCell.m in Sources */,
 				EA89112E1D18D9E80018773C /* DFTableViewRefreshControl.m in Sources */,
 				EA8911541D18D9E80018773C /* FMDatabasePool.m in Sources */,
 				EA890D981D18D8DC0018773C /* QNDns.m in Sources */,
@@ -4183,6 +4422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4196,6 +4436,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/kunyuanseller/kunyuanseller-Prefix.pch";
 				INFOPLIST_FILE = kunyuanseller/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4213,6 +4454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4226,6 +4468,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/kunyuanseller/kunyuanseller-Prefix.pch";
 				INFOPLIST_FILE = kunyuanseller/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",

@@ -19,7 +19,10 @@
 @end
 
 @implementation HeTabBarVC
-
+@synthesize orderManagementVC;
+@synthesize orderQueryVC;
+@synthesize settingVC;
+@synthesize shopManagementVC;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -65,7 +68,20 @@
 //设置根控制器的四个子控制器
 - (void)setupSubviews
 {
+    orderManagementVC = [[HeOrderManagementVC alloc] init];
+    CustomNavigationController *orderManagementNav = [[CustomNavigationController alloc] initWithRootViewController:orderManagementVC];
     
+    orderQueryVC = [[HeOrderQueryVC alloc] init];
+    CustomNavigationController *orderQueryNav = [[CustomNavigationController alloc] initWithRootViewController:orderQueryVC];
+    
+    shopManagementVC = [[HeShopManagementVC alloc] init];
+    CustomNavigationController *shopManagementNav = [[CustomNavigationController alloc] initWithRootViewController:shopManagementVC];
+    
+    settingVC = [[HeSettingVC alloc] init];
+    CustomNavigationController *settingNav = [[CustomNavigationController alloc]
+                                           initWithRootViewController:settingVC];
+    
+    [self setViewControllers:@[orderManagementNav,orderQueryNav,shopManagementNav,settingNav]];
     [self customizeTabBarForController];
 }
 
