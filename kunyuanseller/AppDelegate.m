@@ -95,7 +95,7 @@
                                                object:nil];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(phoneCall:) name:LinkNOTIFICATION object:nil];
-    //    [[IQKeyboardManager sharedManager] setEnable:YES];
+    [[IQKeyboardManager sharedManager] setEnable:YES];
     
     
     [[UINavigationBar appearance] setShadowImage:[UIImage new]];

@@ -82,7 +82,7 @@
     
     CGFloat fieldX = 10;
     CGFloat fieldY = 0;
-    CGFloat fieldH = 60.0;
+    CGFloat fieldH = 50.0;
     CGFloat filedW = SCREENWIDTH - 2 * fieldX;
     nameField = [[UITextField alloc] initWithFrame:CGRectMake(fieldX, fieldY, filedW, fieldH)];
     nameField.backgroundColor = [UIColor clearColor];
@@ -128,7 +128,7 @@
     [selectButton addTarget:self action:@selector(selectButtonClick:) forControlEvents:UIControlEventTouchUpInside];
     [footerView addSubview:selectButton];
     
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(buttonX + buttonW + 10, buttonY, 200, 20)];
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(buttonX + buttonH / 2.0 + 10, buttonY, 200, 20)];
     label.text = @"我可以提供营业执照";
     label.font = [UIFont systemFontOfSize:15.0];
     label.textColor = [UIColor blackColor];
@@ -136,14 +136,16 @@
     
     NSString *tipString = @"关于合作的资费和销售的联系方式我们暂时无法告知，请先提交合作申请后耐心等待我们工作人员与你联系";
     UIFont *textFont = [UIFont systemFontOfSize:15.0];
-    CGSize textsize = [MLLabel getViewSizeByString:tipString maxWidth:buttonW font:textFont];
-    UILabel *tipLabel = [[UILabel alloc] initWithFrame:CGRectMake(buttonX, buttonY + buttonH + 20, buttonW, textsize.height)];
+    CGSize textsize = [MLLinkLabel getViewSizeByString:tipString maxWidth:buttonW font:textFont lineHeight:0 lines:0];
+    MLLinkLabel *tipLabel = [[MLLinkLabel alloc] initWithFrame:CGRectMake(buttonX, buttonY + buttonH + 5, buttonW, textsize.height)];
+    tipLabel.numberOfLines = 0;
     tipLabel.text = tipString;
     tipLabel.font = textFont;
     tipLabel.textColor = [UIColor grayColor];
     [footerView addSubview:tipLabel];
     
     commitButton = [[UIButton alloc] initWithFrame:CGRectMake(buttonX, CGRectGetMaxY(tipLabel.frame) + 10, buttonW, buttonH)];
+    [commitButton setTitle:@"确认提交" forState:UIControlStateNormal];
     [commitButton dangerStyle];
     commitButton.layer.borderWidth = 0;
     commitButton.layer.borderColor = [UIColor clearColor].CGColor;
@@ -152,6 +154,9 @@
     [footerView addSubview:commitButton];
     
     footerView.userInteractionEnabled = YES;
+    
+    enrollTable.backgroundView = nil;
+    enrollTable.backgroundColor = footerView.backgroundColor;
 }
 
 - (IBAction)getCodeButtonClick:(id)sender
@@ -159,9 +164,9 @@
     
 }
 
-- (void)selectButtonClick:(id)sender
+- (void)selectButtonClick:(UIButton *)sender
 {
-
+    sender.selected = !sender.selected;
 }
 
 - (void)commitButtonClick:(id)sender
@@ -180,12 +185,12 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [dataSource count];
+    return [dataSource[section] count] + 1;
 }
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 1;
+    return [dataSource count];
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -211,6 +216,15 @@
     else if (section == 0){
         cell.textLabel.font = [UIFont systemFontOfSize:16.0];
         cell.textLabel.text = shopType;
+        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+        cell.selectionStyle = UITableViewCellSelectionStyleGray;
+        if (shopType == nil) {
+            cell.textLabel.text = @"类型选择";
+            cell.textLabel.textColor = [UIColor grayColor];
+        }
+        else{
+            cell.textLabel.textColor = [UIColor blackColor];
+        }
     }
     return cell;
     
@@ -223,16 +237,20 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
-    return 60.0;
+    return 50.0;
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSInteger row = indexPath.row;
     NSInteger section = indexPath.section;
     
-    return 60.0;
+    return 50.0;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
 -(void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
