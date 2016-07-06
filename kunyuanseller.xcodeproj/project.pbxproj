@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA583BA91D2CF3FC000D1D19 /* CheckBox.png in Resources */ = {isa = PBXBuildFile; fileRef = EA583BA71D2CF3FC000D1D19 /* CheckBox.png */; };
+		EA583BAA1D2CF3FC000D1D19 /* CheckBoxSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = EA583BA81D2CF3FC000D1D19 /* CheckBoxSelected.png */; };
 		EA890C231D18D0AF0018773C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA890C221D18D0AF0018773C /* main.m */; };
 		EA890C261D18D0AF0018773C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA890C251D18D0AF0018773C /* AppDelegate.m */; };
 		EA890C291D18D0AF0018773C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA890C281D18D0AF0018773C /* ViewController.m */; };
@@ -550,6 +552,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA583BA71D2CF3FC000D1D19 /* CheckBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CheckBox.png; sourceTree = "<group>"; };
+		EA583BA81D2CF3FC000D1D19 /* CheckBoxSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CheckBoxSelected.png; sourceTree = "<group>"; };
 		EA890C1E1D18D0AF0018773C /* 坤元外卖商家.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "坤元外卖商家.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA890C221D18D0AF0018773C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA890C241D18D0AF0018773C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -3637,6 +3641,8 @@
 		EAE6B4F11D191C1A000DE707 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				EA583BA71D2CF3FC000D1D19 /* CheckBox.png */,
+				EA583BA81D2CF3FC000D1D19 /* CheckBoxSelected.png */,
 				EAE6B4F81D191C64000DE707 /* comonDefaultImage.png */,
 				EAE6B4F91D191C64000DE707 /* icon-qq.png */,
 				EAE6B4FA1D191C64000DE707 /* icon-weibo.png */,
@@ -3793,6 +3799,7 @@
 				EA8912191D18D9E90018773C /* sr_refresh.png in Resources */,
 				EA89114D1D18D9E80018773C /* grayArrow@2x.png in Resources */,
 				EA89124F1D18DB850018773C /* HeEnrollVC.xib in Resources */,
+				EA583BAA1D2CF3FC000D1D19 /* CheckBoxSelected.png in Resources */,
 				EA8912451D18D9E90018773C /* LICENSE in Resources */,
 				EAE6B5031D191C64000DE707 /* NavBarIOS7_white.png in Resources */,
 				EA8912371D18D9E90018773C /* FontAwesome.ttf in Resources */,
@@ -3861,6 +3868,7 @@
 				EA8912201D18D9E90018773C /* SVProgressHUD.bundle in Resources */,
 				EA8912541D18DBCD0018773C /* HeFindPasswordVC.xib in Resources */,
 				EA89115A1D18D9E80018773C /* IQKeyboardManager.bundle in Resources */,
+				EA583BA91D2CF3FC000D1D19 /* CheckBox.png in Resources */,
 				EA890DB61D18D8DC0018773C /* README.txt in Resources */,
 				EAE6B51B1D191D6A000DE707 /* user_placeholder_icon.png in Resources */,
 				EA890DB41D18D8DC0018773C /* WeiboSDK.bundle in Resources */,

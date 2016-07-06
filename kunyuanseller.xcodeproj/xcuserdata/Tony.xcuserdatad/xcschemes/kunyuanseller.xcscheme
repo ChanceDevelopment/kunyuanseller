@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EA890C1D1D18D0AF0018773C"
-               BuildableName = "&#x5764;&#x5143;&#x5916;&#x5356;&#x5546;&#x5bb6;&#x7aef;.app"
+               BuildableName = "&#x5764;&#x5143;&#x5916;&#x5356;&#x5546;&#x5bb6;.app"
                BlueprintName = "kunyuanseller"
                ReferencedContainer = "container:kunyuanseller.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EA890C1D1D18D0AF0018773C"
-            BuildableName = "&#x5764;&#x5143;&#x5916;&#x5356;&#x5546;&#x5bb6;&#x7aef;.app"
+            BuildableName = "&#x5764;&#x5143;&#x5916;&#x5356;&#x5546;&#x5bb6;.app"
             BlueprintName = "kunyuanseller"
             ReferencedContainer = "container:kunyuanseller.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EA890C1D1D18D0AF0018773C"
-            BuildableName = "&#x5764;&#x5143;&#x5916;&#x5356;&#x5546;&#x5bb6;&#x7aef;.app"
+            BuildableName = "&#x5764;&#x5143;&#x5916;&#x5356;&#x5546;&#x5bb6;.app"
             BlueprintName = "kunyuanseller"
             ReferencedContainer = "container:kunyuanseller.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EA890C1D1D18D0AF0018773C"
-            BuildableName = "&#x5764;&#x5143;&#x5916;&#x5356;&#x5546;&#x5bb6;&#x7aef;.app"
+            BuildableName = "&#x5764;&#x5143;&#x5916;&#x5356;&#x5546;&#x5bb6;.app"
             BlueprintName = "kunyuanseller"
             ReferencedContainer = "container:kunyuanseller.xcodeproj">
          </BuildableReference>

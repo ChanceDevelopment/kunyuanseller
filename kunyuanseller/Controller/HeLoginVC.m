@@ -57,12 +57,12 @@
 - (void)initView
 {
     [super initView];
-    UIBarButtonItem *enrollItem = [[UIBarButtonItem alloc] init];
-    enrollItem.title = @"注册";
-    enrollItem.tintColor = [UIColor whiteColor];
-    enrollItem.target = self;
-    enrollItem.action = @selector(enrollMethod:);
-    self.navigationItem.rightBarButtonItem = enrollItem;
+//    UIBarButtonItem *enrollItem = [[UIBarButtonItem alloc] init];
+//    enrollItem.title = @"注册";
+//    enrollItem.tintColor = [UIColor whiteColor];
+//    enrollItem.target = self;
+//    enrollItem.action = @selector(enrollMethod:);
+//    self.navigationItem.rightBarButtonItem = enrollItem;
     
     [loginButton dangerStyle];
     loginButton.layer.borderWidth = 0;
@@ -70,7 +70,7 @@
     [loginButton setBackgroundImage:[Tool buttonImageFromColor:APPDEFAULTORANGE withImageSize:loginButton.frame.size] forState:UIControlStateNormal];
 }
 
-- (void)enrollMethod:(id)sender
+- (IBAction)enrollMethod:(id)sender
 {
     HeEnrollVC *enrollVC = [[HeEnrollVC alloc] init];
     enrollVC.hidesBottomBarWhenPushed = YES;

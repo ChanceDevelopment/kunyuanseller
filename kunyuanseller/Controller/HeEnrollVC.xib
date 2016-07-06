@@ -9,17 +9,56 @@
             <connections>
                 <outlet property="acountField" destination="khA-cK-TmS" id="yoO-UN-qxo"/>
                 <outlet property="commitButton" destination="HJY-vo-68B" id="sqZ-H8-rIf"/>
+                <outlet property="enrollTable" destination="fRg-eg-wA5" id="KYk-K5-ahx"/>
                 <outlet property="getCodeButton" destination="GcF-bx-VkS" id="dYr-qm-3dq"/>
                 <outlet property="passwordField" destination="Dy2-73-cmr" id="jii-PT-vZf"/>
                 <outlet property="verifyField" destination="cwN-Eu-Qe7" id="kOr-oL-W2n"/>
-                <outlet property="view" destination="rzE-Og-NKp" id="e6c-AW-1Vw"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="M0t-Ll-Zf3"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fRg-eg-wA5">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="HP8-8U-tWY"/>
+                        <outlet property="delegate" destination="-1" id="rw0-gD-vXV"/>
+                    </connections>
+                </tableView>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="fRg-eg-wA5" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="3h2-bT-DCx"/>
+                <constraint firstItem="fRg-eg-wA5" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="HC6-w3-pH6"/>
+                <constraint firstAttribute="trailing" secondItem="fRg-eg-wA5" secondAttribute="trailing" id="MYc-H0-znJ"/>
+                <constraint firstAttribute="bottom" secondItem="fRg-eg-wA5" secondAttribute="bottom" id="ePa-Yx-Auf"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="fRg-eg-wA5"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="3h2-bT-DCx"/>
+                    <exclude reference="HC6-w3-pH6"/>
+                    <exclude reference="MYc-H0-znJ"/>
+                    <exclude reference="ePa-Yx-Auf"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="fRg-eg-wA5"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="3h2-bT-DCx"/>
+                    <include reference="HC6-w3-pH6"/>
+                    <include reference="MYc-H0-znJ"/>
+                    <include reference="ePa-Yx-Auf"/>
+                </mask>
+            </variation>
         </view>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="rzE-Og-NKp">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
@@ -150,20 +189,20 @@
                     <exclude reference="HJY-vo-68B"/>
                 </mask>
                 <mask key="constraints">
-                    <exclude reference="n3p-ww-HII"/>
-                    <exclude reference="g0s-Bf-4ti"/>
-                    <exclude reference="u9A-21-lT8"/>
+                    <exclude reference="5pc-1D-jLt"/>
+                    <exclude reference="7e8-Us-XD9"/>
+                    <exclude reference="z6m-9j-DKF"/>
                     <exclude reference="RWC-OD-pJg"/>
                     <exclude reference="SZh-5o-f2f"/>
-                    <exclude reference="5pc-1D-jLt"/>
-                    <exclude reference="z6m-9j-DKF"/>
-                    <exclude reference="7e8-Us-XD9"/>
+                    <exclude reference="g0s-Bf-4ti"/>
+                    <exclude reference="n3p-ww-HII"/>
+                    <exclude reference="u9A-21-lT8"/>
+                    <exclude reference="EHF-88-MKJ"/>
+                    <exclude reference="dCl-ne-Ob5"/>
+                    <exclude reference="rSV-Vq-86a"/>
                     <exclude reference="A5Q-s0-2Ie"/>
                     <exclude reference="Y2D-Am-PMU"/>
                     <exclude reference="c9h-Gj-KdE"/>
-                    <exclude reference="rSV-Vq-86a"/>
-                    <exclude reference="EHF-88-MKJ"/>
-                    <exclude reference="dCl-ne-Ob5"/>
                 </mask>
             </variation>
             <variation key="heightClass=regular-widthClass=compact">
@@ -175,20 +214,20 @@
                     <include reference="HJY-vo-68B"/>
                 </mask>
                 <mask key="constraints">
-                    <include reference="n3p-ww-HII"/>
-                    <include reference="g0s-Bf-4ti"/>
-                    <include reference="u9A-21-lT8"/>
+                    <include reference="5pc-1D-jLt"/>
+                    <include reference="7e8-Us-XD9"/>
+                    <include reference="z6m-9j-DKF"/>
                     <include reference="RWC-OD-pJg"/>
                     <include reference="SZh-5o-f2f"/>
-                    <include reference="5pc-1D-jLt"/>
-                    <include reference="z6m-9j-DKF"/>
-                    <include reference="7e8-Us-XD9"/>
+                    <include reference="g0s-Bf-4ti"/>
+                    <include reference="n3p-ww-HII"/>
+                    <include reference="u9A-21-lT8"/>
+                    <include reference="EHF-88-MKJ"/>
+                    <include reference="dCl-ne-Ob5"/>
+                    <include reference="rSV-Vq-86a"/>
                     <include reference="A5Q-s0-2Ie"/>
                     <include reference="Y2D-Am-PMU"/>
                     <include reference="c9h-Gj-KdE"/>
-                    <include reference="rSV-Vq-86a"/>
-                    <include reference="EHF-88-MKJ"/>
-                    <include reference="dCl-ne-Ob5"/>
                 </mask>
             </variation>
             <point key="canvasLocation" x="703" y="294"/>
