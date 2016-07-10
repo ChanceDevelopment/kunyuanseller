@@ -53,7 +53,7 @@
         label.textColor = [UIColor whiteColor];
         label.textAlignment = NSTextAlignmentCenter;
         self.navigationItem.titleView = label;
-        label.text = @"商家入驻";
+        label.text = @"商家入驻" ;
         [label sizeToFit];
         self.title = @"商家入驻";
     }
