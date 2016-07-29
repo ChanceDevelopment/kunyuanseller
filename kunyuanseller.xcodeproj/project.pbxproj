@@ -17,7 +17,7 @@
 		EA890C311D18D0AF0018773C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA890C2F1D18D0AF0018773C /* LaunchScreen.storyboard */; };
 		EA890C3C1D18D0AF0018773C /* kunyuansellerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA890C3B1D18D0AF0018773C /* kunyuansellerTests.m */; };
 		EA890C471D18D0B00018773C /* kunyuansellerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA890C461D18D0B00018773C /* kunyuansellerUITests.m */; };
-		EA890C591D18D6CF0018773C /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA890C581D18D6CF0018773C /* Contacts.framework */; };
+		EA890C591D18D6CF0018773C /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA890C581D18D6CF0018773C /* Contacts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		EA890C5B1D18D6D70018773C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA890C5A1D18D6D70018773C /* SystemConfiguration.framework */; };
 		EA890C5D1D18D6DF0018773C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA890C5C1D18D6DF0018773C /* OpenGLES.framework */; };
 		EA890C5F1D18D6F70018773C /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EA890C5E1D18D6F70018773C /* libc++abi.tbd */; };
@@ -554,7 +554,7 @@
 /* Begin PBXFileReference section */
 		EA583BA71D2CF3FC000D1D19 /* CheckBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CheckBox.png; sourceTree = "<group>"; };
 		EA583BA81D2CF3FC000D1D19 /* CheckBoxSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CheckBoxSelected.png; sourceTree = "<group>"; };
-		EA890C1E1D18D0AF0018773C /* 坤元外卖商家.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "坤元外卖商家.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA890C1E1D18D0AF0018773C /* 坤元商家.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "坤元商家.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA890C221D18D0AF0018773C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA890C241D18D0AF0018773C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA890C251D18D0AF0018773C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1617,7 +1617,7 @@
 		EA890C1F1D18D0AF0018773C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA890C1E1D18D0AF0018773C /* 坤元外卖商家.app */,
+				EA890C1E1D18D0AF0018773C /* 坤元商家.app */,
 				EA890C371D18D0AF0018773C /* kunyuansellerTests.xctest */,
 				EA890C421D18D0AF0018773C /* kunyuansellerUITests.xctest */,
 			);
@@ -3697,7 +3697,7 @@
 			);
 			name = kunyuanseller;
 			productName = kunyuanseller;
-			productReference = EA890C1E1D18D0AF0018773C /* 坤元外卖商家.app */;
+			productReference = EA890C1E1D18D0AF0018773C /* 坤元商家.app */;
 			productType = "com.apple.product-type.application";
 		};
 		EA890C361D18D0AF0018773C /* kunyuansellerTests */ = {
@@ -4459,9 +4459,9 @@
 					"$(PROJECT_DIR)/kunyuanseller/ThirdPartySDK/ShareSDK3.3.0/Support/PlatformSDK/WeChatSDK",
 					"$(PROJECT_DIR)/kunyuanseller/ThirdPartySDK/ZBarSDK",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.chance.kunyuanseller;
-				PRODUCT_NAME = "坤元外卖商家";
-				PROVISIONING_PROFILE = "c5411014-0e2f-4a2c-b594-a9643cbd4617";
+				PRODUCT_BUNDLE_IDENTIFIER = com.channce.kunyuanseller;
+				PRODUCT_NAME = "坤元商家";
+				PROVISIONING_PROFILE = "d817cd23-5e81-47f3-b0cb-11a714fb0280";
 			};
 			name = Debug;
 		};
@@ -4469,8 +4469,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Hangzhou Chance Network Technology Co.,Ltd (E6CUH72B23)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hangzhou Chance Network Technology Co.,Ltd (E6CUH72B23)";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4493,9 +4493,9 @@
 					"$(PROJECT_DIR)/kunyuanseller/ThirdPartySDK/ShareSDK3.3.0/Support/PlatformSDK/WeChatSDK",
 					"$(PROJECT_DIR)/kunyuanseller/ThirdPartySDK/ZBarSDK",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.chance.kunyuanseller;
-				PRODUCT_NAME = "坤元外卖商家";
-				PROVISIONING_PROFILE = "eca69dd3-864f-4308-a6cd-031c2d1dca7e";
+				PRODUCT_BUNDLE_IDENTIFIER = com.channce.kunyuanseller;
+				PRODUCT_NAME = "坤元商家";
+				PROVISIONING_PROFILE = "fc79b74b-7d55-4dee-b6ca-b01ea35f1c1d";
 			};
 			name = Release;
 		};
@@ -4587,8 +4587,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Hangzhou Chance Network Technology Co.,Ltd (E6CUH72B23)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hangzhou Chance Network Technology Co.,Ltd (E6CUH72B23)";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4611,9 +4611,9 @@
 					"$(PROJECT_DIR)/kunyuanseller/ThirdPartySDK/ShareSDK3.3.0/Support/PlatformSDK/WeChatSDK",
 					"$(PROJECT_DIR)/kunyuanseller/ThirdPartySDK/ZBarSDK",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.chance.kunyuanseller;
-				PRODUCT_NAME = "坤元外卖商家";
-				PROVISIONING_PROFILE = "735017e1-c06e-4a54-a209-19a22d7c1a98";
+				PRODUCT_BUNDLE_IDENTIFIER = com.channce.kunyuanseller;
+				PRODUCT_NAME = "坤元商家";
+				PROVISIONING_PROFILE = "5a1bcb3d-92e6-423b-ba9b-33c9333ab12e";
 			};
 			name = Distribution;
 		};
