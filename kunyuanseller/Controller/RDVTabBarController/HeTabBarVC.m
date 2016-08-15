@@ -23,6 +23,7 @@
 @synthesize orderQueryVC;
 @synthesize settingVC;
 @synthesize shopManagementVC;
+@synthesize userVC;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -71,17 +72,17 @@
     orderManagementVC = [[HeOrderManagementVC alloc] init];
     CustomNavigationController *orderManagementNav = [[CustomNavigationController alloc] initWithRootViewController:orderManagementVC];
     
-    orderQueryVC = [[HeOrderQueryVC alloc] init];
-    CustomNavigationController *orderQueryNav = [[CustomNavigationController alloc] initWithRootViewController:orderQueryVC];
+//    orderQueryVC = [[HeOrderQueryVC alloc] init];
+//    CustomNavigationController *orderQueryNav = [[CustomNavigationController alloc] initWithRootViewController:orderQueryVC];
     
     shopManagementVC = [[HeShopManagementVC alloc] init];
     CustomNavigationController *shopManagementNav = [[CustomNavigationController alloc] initWithRootViewController:shopManagementVC];
     
-    settingVC = [[HeSettingVC alloc] init];
-    CustomNavigationController *settingNav = [[CustomNavigationController alloc]
-                                           initWithRootViewController:settingVC];
+    userVC = [[HeUserVC alloc] init];
+    CustomNavigationController *userNav = [[CustomNavigationController alloc]
+                                           initWithRootViewController:userVC];
     
-    [self setViewControllers:@[orderManagementNav,orderQueryNav,shopManagementNav,settingNav]];
+    [self setViewControllers:@[orderManagementNav,shopManagementNav,userNav]];
     [self customizeTabBarForController];
 }
 
@@ -90,7 +91,7 @@
     //    tabbar_normal_background   tabbar_selected_background
     UIImage *finishedImage = [UIImage imageNamed:@"tabbar_normal_background"];
     UIImage *unfinishedImage = [UIImage imageNamed:@"tabbar_normal_background"];
-    NSArray *tabBarItemImages = @[@"tabar_homepage_icon", @"tabar_community_icon", @"tabar_order_icon", @"tabar_user_icon"];
+    NSArray *tabBarItemImages = @[@"tabar_order_icon", @"tabar_shopManagement_icon", @"tabar_user_icon"];
     
     NSInteger index = 0;
     for (RDVTabBarItem *item in [[self tabBar] items]) {
