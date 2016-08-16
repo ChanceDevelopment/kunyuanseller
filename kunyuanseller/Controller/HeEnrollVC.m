@@ -207,44 +207,47 @@
         cell.selectionStyle = UITableViewCellSelectionStyleGray;
         
     }
-    
-    if (section == 1) {
-        UITextField *textfield = fieldSource[row];
-        [cell addSubview:textfield];
-        textfield.placeholder = dataSource[section][row];
+    if (row == 0) {
+        NSString *titleString = titleSource[section];
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+        cell.textLabel.text = titleString;
+        cell.textLabel.font = [UIFont systemFontOfSize:18.0];
+        cell.textLabel.textColor = [UIColor grayColor];
+        cell.backgroundColor = [UIColor colorWithWhite:237.0 / 255.0  alpha:1.0];
+        return cell;
     }
-    else if (section == 0){
-        cell.textLabel.font = [UIFont systemFontOfSize:16.0];
-        cell.textLabel.text = shopType;
-        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-        cell.selectionStyle = UITableViewCellSelectionStyleGray;
-        if (shopType == nil) {
+    switch (section) {
+        case 0:
+        {
+            cell.textLabel.font = [UIFont systemFontOfSize:16.0];
+            cell.textLabel.text = shopType;
+            cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+            cell.selectionStyle = UITableViewCellSelectionStyleGray;
             cell.textLabel.text = @"类型选择";
             cell.textLabel.textColor = [UIColor grayColor];
+            break;
         }
-        else{
-            cell.textLabel.textColor = [UIColor blackColor];
+        case 1:
+        {
+            UITextField *textfield = fieldSource[row - 1];
+            [cell addSubview:textfield];
+            textfield.placeholder = dataSource[section][row - 1];
+            break;
         }
+        default:
+            break;
     }
+    
     return cell;
     
 }
 
-- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
-{
-    return titleSource[section];
-}
-
-- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
-{
-    return 50.0;
-}
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSInteger row = indexPath.row;
     NSInteger section = indexPath.section;
     
-    return 50.0;
+    return 45.0;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
