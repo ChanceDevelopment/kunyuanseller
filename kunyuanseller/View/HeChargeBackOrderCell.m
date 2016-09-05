@@ -6,13 +6,13 @@
 //  Copyright © 2016年 iMac. All rights reserved.
 //
 
-#import "HeOrderManagementCell.h"
+#import "HeChargeBackOrderCell.h"
 #import "UIButton+Bootstrap.h"
 #import "MLLabel+Size.h"
 
 #define TextLineHeight 1.2f
 
-@implementation HeOrderManagementCell
+@implementation HeChargeBackOrderCell
 @synthesize orderBgView;
 @synthesize timeLabel;
 @synthesize nameLabel;
@@ -21,12 +21,12 @@
 @synthesize priceLabel;
 @synthesize orderDict;
 /*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
+ // Only override drawRect: if you perform custom drawing.
+ // An empty implementation adversely affects performance during animation.
+ - (void)drawRect:(CGRect)rect {
+ // Drawing code
+ }
+ */
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier cellSize:(CGSize)cellSize
 {
@@ -52,19 +52,19 @@
         iconLabel.backgroundColor = [UIColor redColor];
         iconLabel.textColor = [UIColor whiteColor];
         iconLabel.font = [UIFont systemFontOfSize:17.0];
-        iconLabel.text = @"新";
+        iconLabel.text = @"退";
         iconLabel.textAlignment = NSTextAlignmentCenter;
         [orderBgView addSubview:iconLabel];
         
         CGFloat titleX = 0;
-        CGFloat titleY = 10;
-        CGFloat titleH = 30;
+        CGFloat titleY = 5;
+        CGFloat titleH = 20;
         CGFloat titleW = viewW;
         UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(titleX, titleY, titleW, titleH)];
         titleLabel.backgroundColor = [UIColor clearColor];
         titleLabel.textColor = APPDEFAULTORANGE;
         titleLabel.text = @"订单未处理";
-        titleLabel.font = [UIFont systemFontOfSize:18.0];
+        titleLabel.font = [UIFont systemFontOfSize:15.0];
         titleLabel.textAlignment = NSTextAlignmentCenter;
         [orderBgView addSubview:titleLabel];
         
@@ -80,12 +80,21 @@
         timeLabel.textAlignment = NSTextAlignmentCenter;
         [orderBgView addSubview:timeLabel];
         
-        UIView *line = [[UIView alloc] initWithFrame:CGRectMake(10, CGRectGetMaxY(timeLabel.frame) + 8, viewW - 20, 2)];
+        UILabel *tipLabel = [[UILabel alloc] initWithFrame:CGRectMake(5, CGRectGetMaxY(timeLabel.frame) + 5, viewW - 20, 30)];
+        tipLabel.backgroundColor = [UIColor clearColor];
+        tipLabel.numberOfLines = 2;
+        tipLabel.textColor = [UIColor redColor];
+        tipLabel.text = @"备注:如果订单在规定时间内未处理，系统将自动进行退款处理";
+        tipLabel.font = [UIFont systemFontOfSize:12.0];
+        tipLabel.textAlignment = NSTextAlignmentLeft;
+        [orderBgView addSubview:tipLabel];
+        
+        UIView *line = [[UIView alloc] initWithFrame:CGRectMake(10, CGRectGetMaxY(tipLabel.frame) + 8, viewW - 20, 2)];
         line.backgroundColor = APPDEFAULTORANGE;
         [orderBgView addSubview:line];
         
         UIFont *textFont = [UIFont systemFontOfSize:16.0];
-        CGFloat labelH = 35;
+        CGFloat labelH = 30;
         //名字
         CGFloat nameX = iconX;
         CGFloat nameY = CGRectGetMaxY(line.frame) + 5;
@@ -107,7 +116,7 @@
         CGFloat phoneX = CGRectGetMaxX(nameLabel.frame);
         CGFloat phoneY = nameY;
         CGFloat phoneH = labelH;
-        CGFloat phoneW = (viewW - iconX ) / 2.0;;
+        CGFloat phoneW = (viewW - iconX )/ 2.0;;
         phoneLabel = [[UILabel alloc] initWithFrame:CGRectMake(phoneX, phoneY, phoneW, phoneH)];
         phoneLabel.backgroundColor = [UIColor clearColor];
         phoneLabel.textColor = APPDEFAULTORANGE;
@@ -163,7 +172,7 @@
         [orderBgView addSubview:priceLabel];
         
         CGFloat detailX = 30;
-        CGFloat detailY = CGRectGetMaxY(priceLabel.frame) + 10;
+        CGFloat detailY = CGRectGetMaxY(priceLabel.frame) + 5;
         CGFloat detailW = viewW - 2 * detailX;
         CGFloat detailH = 40;
         UIButton *detailButton = [[UIButton alloc] initWithFrame:CGRectMake(detailX, detailY, detailW, detailH)];

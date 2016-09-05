@@ -508,6 +508,12 @@
 		EA8912541D18DBCD0018773C /* HeFindPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8912521D18DBCD0018773C /* HeFindPasswordVC.xib */; };
 		EA8918991D1911120018773C /* HeSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8918971D1911120018773C /* HeSettingVC.m */; };
 		EA89189A1D1911120018773C /* HeSettingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8918981D1911120018773C /* HeSettingVC.xib */; };
+		EABFD4E01D7DC0EC00160A23 /* HeHandleOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFD4DF1D7DC0EC00160A23 /* HeHandleOrderCell.m */; };
+		EABFD4E31D7DC11C00160A23 /* HeChargeBackOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFD4E21D7DC11C00160A23 /* HeChargeBackOrderCell.m */; };
+		EABFD4E71D7DC3AD00160A23 /* HeOrderDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EABFD4E51D7DC3AD00160A23 /* HeOrderDetailVC.m */; };
+		EABFD4E81D7DC3AD00160A23 /* HeOrderDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EABFD4E61D7DC3AD00160A23 /* HeOrderDetailVC.xib */; };
+		EABFD4EB1D7DCE4800160A23 /* icon_phone_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = EABFD4E91D7DCE4800160A23 /* icon_phone_blue.png */; };
+		EABFD4EC1D7DCE4800160A23 /* icon_phone_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = EABFD4EA1D7DCE4800160A23 /* icon_phone_orange.png */; };
 		EADF84FD1D6201CD0029DC4F /* tabar_order_icon_active@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EADF84F51D6201CD0029DC4F /* tabar_order_icon_active@3x.png */; };
 		EADF84FE1D6201CD0029DC4F /* tabar_order_icon_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EADF84F61D6201CD0029DC4F /* tabar_order_icon_normal@3x.png */; };
 		EADF84FF1D6201CD0029DC4F /* tabar_shopManagement_icon_active@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EADF84F71D6201CD0029DC4F /* tabar_shopManagement_icon_active@3x.png */; };
@@ -1511,6 +1517,15 @@
 		EA8918961D1911120018773C /* HeSettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeSettingVC.h; sourceTree = "<group>"; };
 		EA8918971D1911120018773C /* HeSettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeSettingVC.m; sourceTree = "<group>"; };
 		EA8918981D1911120018773C /* HeSettingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeSettingVC.xib; sourceTree = "<group>"; };
+		EABFD4DE1D7DC0EC00160A23 /* HeHandleOrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeHandleOrderCell.h; sourceTree = "<group>"; };
+		EABFD4DF1D7DC0EC00160A23 /* HeHandleOrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeHandleOrderCell.m; sourceTree = "<group>"; };
+		EABFD4E11D7DC11C00160A23 /* HeChargeBackOrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeChargeBackOrderCell.h; sourceTree = "<group>"; };
+		EABFD4E21D7DC11C00160A23 /* HeChargeBackOrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeChargeBackOrderCell.m; sourceTree = "<group>"; };
+		EABFD4E41D7DC3AD00160A23 /* HeOrderDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeOrderDetailVC.h; sourceTree = "<group>"; };
+		EABFD4E51D7DC3AD00160A23 /* HeOrderDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeOrderDetailVC.m; sourceTree = "<group>"; };
+		EABFD4E61D7DC3AD00160A23 /* HeOrderDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeOrderDetailVC.xib; sourceTree = "<group>"; };
+		EABFD4E91D7DCE4800160A23 /* icon_phone_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_phone_blue.png; sourceTree = "<group>"; };
+		EABFD4EA1D7DCE4800160A23 /* icon_phone_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_phone_orange.png; sourceTree = "<group>"; };
 		EADF84F51D6201CD0029DC4F /* tabar_order_icon_active@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabar_order_icon_active@3x.png"; sourceTree = "<group>"; };
 		EADF84F61D6201CD0029DC4F /* tabar_order_icon_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabar_order_icon_normal@3x.png"; sourceTree = "<group>"; };
 		EADF84F71D6201CD0029DC4F /* tabar_shopManagement_icon_active@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabar_shopManagement_icon_active@3x.png"; sourceTree = "<group>"; };
@@ -3568,6 +3583,9 @@
 				EAE6B4C71D191457000DE707 /* HeOrderManagementVC.h */,
 				EAE6B4C81D191457000DE707 /* HeOrderManagementVC.m */,
 				EAE6B4C91D191457000DE707 /* HeOrderManagementVC.xib */,
+				EABFD4E41D7DC3AD00160A23 /* HeOrderDetailVC.h */,
+				EABFD4E51D7DC3AD00160A23 /* HeOrderDetailVC.m */,
+				EABFD4E61D7DC3AD00160A23 /* HeOrderDetailVC.xib */,
 			);
 			name = OrderManagement;
 			sourceTree = "<group>";
@@ -3615,6 +3633,10 @@
 		EAE6B4D61D191528000DE707 /* OrderManagement */ = {
 			isa = PBXGroup;
 			children = (
+				EABFD4DE1D7DC0EC00160A23 /* HeHandleOrderCell.h */,
+				EABFD4DF1D7DC0EC00160A23 /* HeHandleOrderCell.m */,
+				EABFD4E11D7DC11C00160A23 /* HeChargeBackOrderCell.h */,
+				EABFD4E21D7DC11C00160A23 /* HeChargeBackOrderCell.m */,
 				EAE6B4DF1D19159F000DE707 /* HeOrderManagementCell.h */,
 				EAE6B4E01D19159F000DE707 /* HeOrderManagementCell.m */,
 			);
@@ -3673,6 +3695,8 @@
 		EAE6B4F11D191C1A000DE707 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				EABFD4E91D7DCE4800160A23 /* icon_phone_blue.png */,
+				EABFD4EA1D7DCE4800160A23 /* icon_phone_orange.png */,
 				EA583BA71D2CF3FC000D1D19 /* CheckBox.png */,
 				EA583BA81D2CF3FC000D1D19 /* CheckBoxSelected.png */,
 				EAE6B4F81D191C64000DE707 /* comonDefaultImage.png */,
@@ -3836,6 +3860,7 @@
 				EA8912251D18D9E90018773C /* btn_020@2x.png in Resources */,
 				EAE6B4D51D1914A2000DE707 /* HeShopManagementVC.xib in Resources */,
 				EA890DBC1D18D8DD0018773C /* zbar-back.png in Resources */,
+				EABFD4EB1D7DCE4800160A23 /* icon_phone_blue.png in Resources */,
 				EA89114E1D18D9E80018773C /* whiteArrow.png in Resources */,
 				EA8912191D18D9E90018773C /* sr_refresh.png in Resources */,
 				EA89114D1D18D9E80018773C /* grayArrow@2x.png in Resources */,
@@ -3854,6 +3879,7 @@
 				EA8911991D18D9E80018773C /* arrow_down1@2x.png in Resources */,
 				EADF85041D6201CD0029DC4F /* tabar_user_icon_normal@3x.png in Resources */,
 				EA89114C1D18D9E80018773C /* grayArrow.png in Resources */,
+				EABFD4E81D7DC3AD00160A23 /* HeOrderDetailVC.xib in Resources */,
 				EA8912241D18D9E90018773C /* btn_020.press@2x.png in Resources */,
 				EAE6B5041D191C64000DE707 /* NavBarIOS7.png in Resources */,
 				EA890DDD1D18D8FC0018773C /* loading_anim1.png in Resources */,
@@ -3878,6 +3904,7 @@
 				EA8911971D18D9E80018773C /* arrow_down.png in Resources */,
 				EA8912281D18D9E90018773C /* btn_021@2x.png in Resources */,
 				EA89121A1D18D9E90018773C /* sr_refresh@2X.png in Resources */,
+				EABFD4EC1D7DCE4800160A23 /* icon_phone_orange.png in Resources */,
 				EA89116D1D18D9E80018773C /* MJPhotoBrowser.bundle in Resources */,
 				EA8911301D18D9E80018773C /* back-arrow@3x.png in Resources */,
 				EA89112F1D18D9E80018773C /* back-arrow@2x.png in Resources */,
@@ -4009,6 +4036,7 @@
 				EA890D8D1D18D8DC0018773C /* QNAsyncRun.m in Sources */,
 				EA89111A1D18D9E80018773C /* DFBaseResponse.m in Sources */,
 				EA89119D1D18D9E80018773C /* SIMenuCell.m in Sources */,
+				EABFD4E01D7DC0EC00160A23 /* HeHandleOrderCell.m in Sources */,
 				EA8910FB1D18D9E80018773C /* UIProgressView+AFNetworking.m in Sources */,
 				EA890D8A1D18D8DC0018773C /* split.c in Sources */,
 				EA890DD21D18D8F70018773C /* EaseEmoji.m in Sources */,
@@ -4272,6 +4300,7 @@
 				EA8911E31D18D9E90018773C /* RACSignalProvider.d in Sources */,
 				EA890C261D18D0AF0018773C /* AppDelegate.m in Sources */,
 				EA8911A51D18D9E80018773C /* NYSegmentIndicator.m in Sources */,
+				EABFD4E31D7DC11C00160A23 /* HeChargeBackOrderCell.m in Sources */,
 				EA8912431D18D9E90018773C /* UIView+convenience.m in Sources */,
 				EA8912041D18D9E90018773C /* UITextView+RACSignalSupport.m in Sources */,
 				EA89113B1D18D9E80018773C /* DFUserDefaultStorageService.m in Sources */,
@@ -4307,6 +4336,7 @@
 				EA8911B61D18D9E90018773C /* NSObject+RACLifting.m in Sources */,
 				EA8912381D18D9E90018773C /* NSString+Catagory.m in Sources */,
 				EA890D851D18D8DC0018773C /* QRCodeGenerator.m in Sources */,
+				EABFD4E71D7DC3AD00160A23 /* HeOrderDetailVC.m in Sources */,
 				EA8911D21D18D9E90018773C /* RACImmediateScheduler.m in Sources */,
 				EA890DA31D18D8DC0018773C /* QNReachability.m in Sources */,
 				EA890CA41D18D8C00018773C /* NSString+Valid.m in Sources */,

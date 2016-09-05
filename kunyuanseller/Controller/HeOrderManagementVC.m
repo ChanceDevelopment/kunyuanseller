@@ -8,12 +8,15 @@
 
 #import "HeOrderManagementVC.h"
 #import "HeOrderManagementCell.h"
+#import "HeHandleOrderCell.h"
+#import "HeChargeBackOrderCell.h"
+#import "HeOrderDetailVC.h"
 
 #define TextLineHeight 1.2f
 
 @interface HeOrderManagementVC ()<UITableViewDelegate,UITableViewDataSource>
 {
-    BOOL requestReply; //是否请求已回复数据
+    NSInteger requestReply; //是否请求已回复数据 1:未处理 2:今日订单  3:退单
 }
 @property(strong,nonatomic)IBOutlet UITableView *tableview;
 @property(strong,nonatomic)UIView *sectionHeaderView;
@@ -64,7 +67,7 @@
 - (void)initializaiton
 {
     [super initializaiton];
-    requestReply = NO;
+    requestReply = 1;
     messageArray = [[NSMutableArray alloc] initWithCapacity:0];
     pageNo = 1;
     updateOption = 1;
@@ -112,28 +115,65 @@
 
 - (void)filterButtonClick:(UIButton *)button
 {
-    if ((requestReply == NO && button.tag == 100) || (requestReply == YES && button.tag == 101)) {
+    if ((requestReply == 1 && button.tag == 100) || (requestReply == 2 && button.tag == 101) || (requestReply == 3 && button.tag == 102)) {
         return;
     }
-    if (button.selected == requestReply) {
-        return;
-    }
-    NSArray *subViewsArray = sectionHeaderView.subviews;
-    for (UIView *subview in subViewsArray) {
-        if ([subview isKindOfClass:[UIButton class]]) {
-            ((UIButton *)subview).selected = !((UIButton *)subview).selected;
+    switch (button.tag - 100) {
+        case 0:
+        {
+            requestReply = 1;
+            UIButton *button = [sectionHeaderView viewWithTag:100];
+            button.selected = YES;
+            button = [sectionHeaderView viewWithTag:101];
+            button.selected = NO;
+            button = [sectionHeaderView viewWithTag:102];
+            button.selected = NO;
+            break;
         }
-    }
-    requestReply = YES;
-    if (button.tag == 100) {
-        requestReply = NO;
+        case 1:
+        {
+            requestReply = 2;
+            UIButton *button = [sectionHeaderView viewWithTag:100];
+            button.selected = NO;
+            button = [sectionHeaderView viewWithTag:101];
+            button.selected = YES;
+            button = [sectionHeaderView viewWithTag:102];
+            button.selected = NO;
+            break;
+        }
+        case 2:
+        {
+            requestReply = 3;
+            UIButton *button = [sectionHeaderView viewWithTag:100];
+            button.selected = NO;
+            button = [sectionHeaderView viewWithTag:101];
+            button.selected = NO;
+            button = [sectionHeaderView viewWithTag:102];
+            button.selected = YES;
+            break;
+        }
+        default:
+            break;
     }
     [self loadMessageShow:YES];
 }
 
 - (void)loadMessageShow:(BOOL)show
 {
-    
+    [tableview reloadData];
+}
+
+- (void)routerEventWithName:(NSString *)eventName userInfo:(NSDictionary *)userInfo
+{
+    if ([eventName isEqualToString:@"detailOrder"]) {
+        NSDictionary *orderDict = [[NSDictionary alloc] initWithDictionary:userInfo];
+        HeOrderDetailVC *orderDetailVC = [[HeOrderDetailVC alloc] init];
+        orderDetailVC.orderDict = [[NSDictionary alloc] initWithDictionary:orderDict];
+        orderDetailVC.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:orderDetailVC animated:YES];
+        return;
+    }
+    [super routerEventWithName:eventName userInfo:userInfo];
 }
 
 - (void)addFooterView
@@ -290,13 +330,46 @@
 //        
 //    }
     
-    HeOrderManagementCell *cell  = [tableView cellForRowAtIndexPath:indexPath];
-    if (!cell) {
-        cell = [[HeOrderManagementCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIndentifier cellSize:cellSize];
-        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    switch (requestReply) {
+        case 1:
+        {
+            HeOrderManagementCell *cell  = [tableView cellForRowAtIndexPath:indexPath];
+            if (!cell) {
+                cell = [[HeOrderManagementCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIndentifier cellSize:cellSize];
+                cell.selectionStyle = UITableViewCellSelectionStyleNone;
+            }
+            
+            return cell;
+            break;
+        }
+        case 2:
+        {
+            HeHandleOrderCell *cell  = [tableView cellForRowAtIndexPath:indexPath];
+            if (!cell) {
+                cell = [[HeHandleOrderCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIndentifier cellSize:cellSize];
+                cell.selectionStyle = UITableViewCellSelectionStyleNone;
+            }
+            
+            return cell;
+            break;
+        }
+        case 3:
+        {
+            HeChargeBackOrderCell *cell  = [tableView cellForRowAtIndexPath:indexPath];
+            if (!cell) {
+                cell = [[HeChargeBackOrderCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIndentifier cellSize:cellSize];
+                cell.selectionStyle = UITableViewCellSelectionStyleNone;
+            }
+            
+            return cell;
+            break;
+        }
+
+            
+        default:
+            break;
     }
-    
-    return cell;
+    return nil;
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section

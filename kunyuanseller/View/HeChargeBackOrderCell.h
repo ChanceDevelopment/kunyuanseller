@@ -1,14 +1,14 @@
 //
-//  HeOrderManagementCell.h
+//  HeChargeBackOrderCell.h
 //  kunyuanseller
 //
-//  Created by Tony on 16/6/21.
+//  Created by HeDongMing on 16/9/5.
 //  Copyright © 2016年 iMac. All rights reserved.
 //
 
 #import "HeBaseTableViewCell.h"
 
-@interface HeOrderManagementCell : HeBaseTableViewCell
+@interface HeChargeBackOrderCell : HeBaseTableViewCell
 @property(strong,nonatomic)UIView *orderBgView;
 @property(strong,nonatomic)UILabel *timeLabel;
 @property(strong,nonatomic)UILabel *nameLabel;
