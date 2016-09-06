@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA41512D1D7EA9C80009282B /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = EA4151011D7EA9C80009282B /* .gitkeep */; };
+		EA41512E1D7EA9C80009282B /* NSObject+Invocation.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4151041D7EA9C80009282B /* NSObject+Invocation.m */; };
+		EA41512F1D7EA9C80009282B /* UIDeviceAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4151061D7EA9C80009282B /* UIDeviceAdditions.m */; };
+		EA4151301D7EA9C80009282B /* UIImageExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4151081D7EA9C80009282B /* UIImageExtend.m */; };
+		EA4151311D7EA9C80009282B /* UIScreen+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41510A1D7EA9C80009282B /* UIScreen+Size.m */; };
+		EA4151321D7EA9C80009282B /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41510C1D7EA9C80009282B /* UIViewAdditions.m */; };
+		EA4151331D7EA9C80009282B /* UIWindow+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41510E1D7EA9C80009282B /* UIWindow+Alert.m */; };
+		EA4151341D7EA9C80009282B /* TKActionSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4151111D7EA9C80009282B /* TKActionSheetController.m */; };
+		EA4151351D7EA9C80009282B /* TKActionSheetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4151131D7EA9C80009282B /* TKActionSheetManager.m */; };
+		EA4151361D7EA9C80009282B /* TKActionSheetOverlayWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4151151D7EA9C80009282B /* TKActionSheetOverlayWindow.m */; };
+		EA4151371D7EA9C80009282B /* TKAlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4151191D7EA9C80009282B /* TKAlertManager.m */; };
+		EA4151381D7EA9C80009282B /* TKAlertOverlayWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41511B1D7EA9C80009282B /* TKAlertOverlayWindow.m */; };
+		EA4151391D7EA9C80009282B /* TKAlertViewAction.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41511D1D7EA9C80009282B /* TKAlertViewAction.m */; };
+		EA41513A1D7EA9C80009282B /* TKAlertViewController+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41511F1D7EA9C80009282B /* TKAlertViewController+Private.m */; };
+		EA41513B1D7EA9C80009282B /* TKAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4151211D7EA9C80009282B /* TKAlertViewController.m */; };
+		EA41513C1D7EA9C80009282B /* TKFirstResponseAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4151231D7EA9C80009282B /* TKFirstResponseAlertViewController.m */; };
+		EA41513D1D7EA9C80009282B /* TKTextFieldAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4151251D7EA9C80009282B /* TKTextFieldAlertViewController.m */; };
+		EA41513E1D7EA9C80009282B /* TKBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4151281D7EA9C80009282B /* TKBlurView.m */; };
+		EA41513F1D7EA9C80009282B /* TKFullScreenWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41512A1D7EA9C80009282B /* TKFullScreenWindow.m */; };
+		EA4151401D7EA9C80009282B /* TKFullScreenWindowBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41512C1D7EA9C80009282B /* TKFullScreenWindowBackground.m */; };
+		EA4151421D7EB81E0009282B /* icon_into.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4151411D7EB81E0009282B /* icon_into.png */; };
 		EA583BA91D2CF3FC000D1D19 /* CheckBox.png in Resources */ = {isa = PBXBuildFile; fileRef = EA583BA71D2CF3FC000D1D19 /* CheckBox.png */; };
 		EA583BAA1D2CF3FC000D1D19 /* CheckBoxSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = EA583BA81D2CF3FC000D1D19 /* CheckBoxSelected.png */; };
 		EA890C231D18D0AF0018773C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA890C221D18D0AF0018773C /* main.m */; };
@@ -524,6 +545,20 @@
 		EADF85041D6201CD0029DC4F /* tabar_user_icon_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EADF84FC1D6201CD0029DC4F /* tabar_user_icon_normal@3x.png */; };
 		EADF850E1D620C430029DC4F /* HeUserVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EADF850C1D620C430029DC4F /* HeUserVC.m */; };
 		EADF850F1D620C430029DC4F /* HeUserVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EADF850D1D620C430029DC4F /* HeUserVC.xib */; };
+		EAE2D3D91D7E53EF00D008C1 /* icon_query_search.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE2D3D81D7E53EF00D008C1 /* icon_query_search.png */; };
+		EAE2D3DE1D7E54EC00D008C1 /* HeSearchInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE2D3DC1D7E54EC00D008C1 /* HeSearchInfoVC.m */; };
+		EAE2D3DF1D7E54EC00D008C1 /* HeSearchInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAE2D3DD1D7E54EC00D008C1 /* HeSearchInfoVC.xib */; };
+		EAE2D3E31D7E559D00D008C1 /* HeSearchInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE2D3E21D7E559D00D008C1 /* HeSearchInfoCell.m */; };
+		EAE2D3E51D7E5B0100D008C1 /* icon_send.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE2D3E41D7E5B0100D008C1 /* icon_send.png */; };
+		EAE2D3E71D7E5B0500D008C1 /* icon_get.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE2D3E61D7E5B0500D008C1 /* icon_get.png */; };
+		EAE2D3E91D7E5B1100D008C1 /* icon_address.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE2D3E81D7E5B1100D008C1 /* icon_address.png */; };
+		EAE2D3EB1D7E90C800D008C1 /* userDefalut_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE2D3EA1D7E90C800D008C1 /* userDefalut_icon.png */; };
+		EAE2D3F21D7E986D00D008C1 /* icon_home_activity.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE2D3EC1D7E986D00D008C1 /* icon_home_activity.png */; };
+		EAE2D3F31D7E986D00D008C1 /* icon_home_administration.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE2D3ED1D7E986D00D008C1 /* icon_home_administration.png */; };
+		EAE2D3F41D7E986D00D008C1 /* icon_home_analysis.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE2D3EE1D7E986D00D008C1 /* icon_home_analysis.png */; };
+		EAE2D3F51D7E986D00D008C1 /* icon_home_evaluate.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE2D3EF1D7E986D00D008C1 /* icon_home_evaluate.png */; };
+		EAE2D3F61D7E986D00D008C1 /* icon_home_history.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE2D3F01D7E986D00D008C1 /* icon_home_history.png */; };
+		EAE2D3F71D7E986D00D008C1 /* icon_home_reconciliation.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE2D3F11D7E986D00D008C1 /* icon_home_reconciliation.png */; };
 		EAE6B4CA1D191457000DE707 /* HeOrderManagementVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE6B4C81D191457000DE707 /* HeOrderManagementVC.m */; };
 		EAE6B4CB1D191457000DE707 /* HeOrderManagementVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAE6B4C91D191457000DE707 /* HeOrderManagementVC.xib */; };
 		EAE6B4CF1D19146F000DE707 /* HeOrderQueryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE6B4CD1D19146F000DE707 /* HeOrderQueryVC.m */; };
@@ -568,6 +603,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA4151011D7EA9C80009282B /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		EA4151031D7EA9C80009282B /* NSObject+Invocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Invocation.h"; sourceTree = "<group>"; };
+		EA4151041D7EA9C80009282B /* NSObject+Invocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Invocation.m"; sourceTree = "<group>"; };
+		EA4151051D7EA9C80009282B /* UIDeviceAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDeviceAdditions.h; sourceTree = "<group>"; };
+		EA4151061D7EA9C80009282B /* UIDeviceAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDeviceAdditions.m; sourceTree = "<group>"; };
+		EA4151071D7EA9C80009282B /* UIImageExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageExtend.h; sourceTree = "<group>"; };
+		EA4151081D7EA9C80009282B /* UIImageExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageExtend.m; sourceTree = "<group>"; };
+		EA4151091D7EA9C80009282B /* UIScreen+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+Size.h"; sourceTree = "<group>"; };
+		EA41510A1D7EA9C80009282B /* UIScreen+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+Size.m"; sourceTree = "<group>"; };
+		EA41510B1D7EA9C80009282B /* UIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAdditions.h; sourceTree = "<group>"; };
+		EA41510C1D7EA9C80009282B /* UIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAdditions.m; sourceTree = "<group>"; };
+		EA41510D1D7EA9C80009282B /* UIWindow+Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Alert.h"; sourceTree = "<group>"; };
+		EA41510E1D7EA9C80009282B /* UIWindow+Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Alert.m"; sourceTree = "<group>"; };
+		EA4151101D7EA9C80009282B /* TKActionSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKActionSheetController.h; sourceTree = "<group>"; };
+		EA4151111D7EA9C80009282B /* TKActionSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKActionSheetController.m; sourceTree = "<group>"; };
+		EA4151121D7EA9C80009282B /* TKActionSheetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKActionSheetManager.h; sourceTree = "<group>"; };
+		EA4151131D7EA9C80009282B /* TKActionSheetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKActionSheetManager.m; sourceTree = "<group>"; };
+		EA4151141D7EA9C80009282B /* TKActionSheetOverlayWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKActionSheetOverlayWindow.h; sourceTree = "<group>"; };
+		EA4151151D7EA9C80009282B /* TKActionSheetOverlayWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKActionSheetOverlayWindow.m; sourceTree = "<group>"; };
+		EA4151171D7EA9C80009282B /* TKAlertConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKAlertConst.h; sourceTree = "<group>"; };
+		EA4151181D7EA9C80009282B /* TKAlertManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKAlertManager.h; sourceTree = "<group>"; };
+		EA4151191D7EA9C80009282B /* TKAlertManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKAlertManager.m; sourceTree = "<group>"; };
+		EA41511A1D7EA9C80009282B /* TKAlertOverlayWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKAlertOverlayWindow.h; sourceTree = "<group>"; };
+		EA41511B1D7EA9C80009282B /* TKAlertOverlayWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKAlertOverlayWindow.m; sourceTree = "<group>"; };
+		EA41511C1D7EA9C80009282B /* TKAlertViewAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKAlertViewAction.h; sourceTree = "<group>"; };
+		EA41511D1D7EA9C80009282B /* TKAlertViewAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKAlertViewAction.m; sourceTree = "<group>"; };
+		EA41511E1D7EA9C80009282B /* TKAlertViewController+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TKAlertViewController+Private.h"; sourceTree = "<group>"; };
+		EA41511F1D7EA9C80009282B /* TKAlertViewController+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TKAlertViewController+Private.m"; sourceTree = "<group>"; };
+		EA4151201D7EA9C80009282B /* TKAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKAlertViewController.h; sourceTree = "<group>"; };
+		EA4151211D7EA9C80009282B /* TKAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKAlertViewController.m; sourceTree = "<group>"; };
+		EA4151221D7EA9C80009282B /* TKFirstResponseAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKFirstResponseAlertViewController.h; sourceTree = "<group>"; };
+		EA4151231D7EA9C80009282B /* TKFirstResponseAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKFirstResponseAlertViewController.m; sourceTree = "<group>"; };
+		EA4151241D7EA9C80009282B /* TKTextFieldAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKTextFieldAlertViewController.h; sourceTree = "<group>"; };
+		EA4151251D7EA9C80009282B /* TKTextFieldAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKTextFieldAlertViewController.m; sourceTree = "<group>"; };
+		EA4151261D7EA9C80009282B /* TKAlert&TKActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TKAlert&TKActionSheet.h"; sourceTree = "<group>"; };
+		EA4151271D7EA9C80009282B /* TKBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKBlurView.h; sourceTree = "<group>"; };
+		EA4151281D7EA9C80009282B /* TKBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKBlurView.m; sourceTree = "<group>"; };
+		EA4151291D7EA9C80009282B /* TKFullScreenWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKFullScreenWindow.h; sourceTree = "<group>"; };
+		EA41512A1D7EA9C80009282B /* TKFullScreenWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKFullScreenWindow.m; sourceTree = "<group>"; };
+		EA41512B1D7EA9C80009282B /* TKFullScreenWindowBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKFullScreenWindowBackground.h; sourceTree = "<group>"; };
+		EA41512C1D7EA9C80009282B /* TKFullScreenWindowBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKFullScreenWindowBackground.m; sourceTree = "<group>"; };
+		EA4151411D7EB81E0009282B /* icon_into.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_into.png; sourceTree = "<group>"; };
 		EA583BA71D2CF3FC000D1D19 /* CheckBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CheckBox.png; sourceTree = "<group>"; };
 		EA583BA81D2CF3FC000D1D19 /* CheckBoxSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CheckBoxSelected.png; sourceTree = "<group>"; };
 		EA890C1E1D18D0AF0018773C /* 猪美巴商家.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "猪美巴商家.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1537,6 +1614,22 @@
 		EADF850B1D620C430029DC4F /* HeUserVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeUserVC.h; sourceTree = "<group>"; };
 		EADF850C1D620C430029DC4F /* HeUserVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeUserVC.m; sourceTree = "<group>"; };
 		EADF850D1D620C430029DC4F /* HeUserVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeUserVC.xib; sourceTree = "<group>"; };
+		EAE2D3D81D7E53EF00D008C1 /* icon_query_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_query_search.png; sourceTree = "<group>"; };
+		EAE2D3DB1D7E54EC00D008C1 /* HeSearchInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeSearchInfoVC.h; sourceTree = "<group>"; };
+		EAE2D3DC1D7E54EC00D008C1 /* HeSearchInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeSearchInfoVC.m; sourceTree = "<group>"; };
+		EAE2D3DD1D7E54EC00D008C1 /* HeSearchInfoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeSearchInfoVC.xib; sourceTree = "<group>"; };
+		EAE2D3E11D7E559D00D008C1 /* HeSearchInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeSearchInfoCell.h; sourceTree = "<group>"; };
+		EAE2D3E21D7E559D00D008C1 /* HeSearchInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeSearchInfoCell.m; sourceTree = "<group>"; };
+		EAE2D3E41D7E5B0100D008C1 /* icon_send.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_send.png; sourceTree = "<group>"; };
+		EAE2D3E61D7E5B0500D008C1 /* icon_get.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_get.png; sourceTree = "<group>"; };
+		EAE2D3E81D7E5B1100D008C1 /* icon_address.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_address.png; sourceTree = "<group>"; };
+		EAE2D3EA1D7E90C800D008C1 /* userDefalut_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userDefalut_icon.png; sourceTree = "<group>"; };
+		EAE2D3EC1D7E986D00D008C1 /* icon_home_activity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_home_activity.png; sourceTree = "<group>"; };
+		EAE2D3ED1D7E986D00D008C1 /* icon_home_administration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_home_administration.png; sourceTree = "<group>"; };
+		EAE2D3EE1D7E986D00D008C1 /* icon_home_analysis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_home_analysis.png; sourceTree = "<group>"; };
+		EAE2D3EF1D7E986D00D008C1 /* icon_home_evaluate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_home_evaluate.png; sourceTree = "<group>"; };
+		EAE2D3F01D7E986D00D008C1 /* icon_home_history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_home_history.png; sourceTree = "<group>"; };
+		EAE2D3F11D7E986D00D008C1 /* icon_home_reconciliation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_home_reconciliation.png; sourceTree = "<group>"; };
 		EAE6B4C71D191457000DE707 /* HeOrderManagementVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeOrderManagementVC.h; sourceTree = "<group>"; };
 		EAE6B4C81D191457000DE707 /* HeOrderManagementVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeOrderManagementVC.m; sourceTree = "<group>"; };
 		EAE6B4C91D191457000DE707 /* HeOrderManagementVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeOrderManagementVC.xib; sourceTree = "<group>"; };
@@ -1639,6 +1732,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA4151001D7EA9C80009282B /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				EA4151011D7EA9C80009282B /* .gitkeep */,
+				EA4151021D7EA9C80009282B /* Category */,
+				EA41510F1D7EA9C80009282B /* TKActionSheet */,
+				EA4151161D7EA9C80009282B /* TKAlert */,
+				EA4151261D7EA9C80009282B /* TKAlert&TKActionSheet.h */,
+				EA4151271D7EA9C80009282B /* TKBlurView.h */,
+				EA4151281D7EA9C80009282B /* TKBlurView.m */,
+				EA4151291D7EA9C80009282B /* TKFullScreenWindow.h */,
+				EA41512A1D7EA9C80009282B /* TKFullScreenWindow.m */,
+				EA41512B1D7EA9C80009282B /* TKFullScreenWindowBackground.h */,
+				EA41512C1D7EA9C80009282B /* TKFullScreenWindowBackground.m */,
+			);
+			name = AlertView;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EA4151021D7EA9C80009282B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EA4151031D7EA9C80009282B /* NSObject+Invocation.h */,
+				EA4151041D7EA9C80009282B /* NSObject+Invocation.m */,
+				EA4151051D7EA9C80009282B /* UIDeviceAdditions.h */,
+				EA4151061D7EA9C80009282B /* UIDeviceAdditions.m */,
+				EA4151071D7EA9C80009282B /* UIImageExtend.h */,
+				EA4151081D7EA9C80009282B /* UIImageExtend.m */,
+				EA4151091D7EA9C80009282B /* UIScreen+Size.h */,
+				EA41510A1D7EA9C80009282B /* UIScreen+Size.m */,
+				EA41510B1D7EA9C80009282B /* UIViewAdditions.h */,
+				EA41510C1D7EA9C80009282B /* UIViewAdditions.m */,
+				EA41510D1D7EA9C80009282B /* UIWindow+Alert.h */,
+				EA41510E1D7EA9C80009282B /* UIWindow+Alert.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		EA41510F1D7EA9C80009282B /* TKActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				EA4151101D7EA9C80009282B /* TKActionSheetController.h */,
+				EA4151111D7EA9C80009282B /* TKActionSheetController.m */,
+				EA4151121D7EA9C80009282B /* TKActionSheetManager.h */,
+				EA4151131D7EA9C80009282B /* TKActionSheetManager.m */,
+				EA4151141D7EA9C80009282B /* TKActionSheetOverlayWindow.h */,
+				EA4151151D7EA9C80009282B /* TKActionSheetOverlayWindow.m */,
+			);
+			path = TKActionSheet;
+			sourceTree = "<group>";
+		};
+		EA4151161D7EA9C80009282B /* TKAlert */ = {
+			isa = PBXGroup;
+			children = (
+				EA4151171D7EA9C80009282B /* TKAlertConst.h */,
+				EA4151181D7EA9C80009282B /* TKAlertManager.h */,
+				EA4151191D7EA9C80009282B /* TKAlertManager.m */,
+				EA41511A1D7EA9C80009282B /* TKAlertOverlayWindow.h */,
+				EA41511B1D7EA9C80009282B /* TKAlertOverlayWindow.m */,
+				EA41511C1D7EA9C80009282B /* TKAlertViewAction.h */,
+				EA41511D1D7EA9C80009282B /* TKAlertViewAction.m */,
+				EA41511E1D7EA9C80009282B /* TKAlertViewController+Private.h */,
+				EA41511F1D7EA9C80009282B /* TKAlertViewController+Private.m */,
+				EA4151201D7EA9C80009282B /* TKAlertViewController.h */,
+				EA4151211D7EA9C80009282B /* TKAlertViewController.m */,
+				EA4151221D7EA9C80009282B /* TKFirstResponseAlertViewController.h */,
+				EA4151231D7EA9C80009282B /* TKFirstResponseAlertViewController.m */,
+				EA4151241D7EA9C80009282B /* TKTextFieldAlertViewController.h */,
+				EA4151251D7EA9C80009282B /* TKTextFieldAlertViewController.m */,
+			);
+			path = TKAlert;
+			sourceTree = "<group>";
+		};
 		EA890C151D18D0AF0018773C = {
 			isa = PBXGroup;
 			children = (
@@ -2218,6 +2384,7 @@
 		EA890DE01D18D9230018773C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EAE2D3E01D7E556F00D008C1 /* Search */,
 				EAE6B4E81D191720000DE707 /* Order */,
 				EAE6B4D81D19152D000DE707 /* ShopManagement */,
 				EAE6B4D71D19152B000DE707 /* OrderQuery */,
@@ -2230,6 +2397,7 @@
 		EA890DE11D18D9270018773C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				EAE2D3DA1D7E54E100D008C1 /* Search */,
 				EADF85101D620C4A0029DC4F /* User */,
 				EAE6B51F1D19253D000DE707 /* HeInstructionView */,
 				EAE6B4E21D1916DD000DE707 /* Order */,
@@ -2285,6 +2453,7 @@
 		EA890E051D18D9E60018773C /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				EA4151001D7EA9C80009282B /* AlertView */,
 				EA890E061D18D9E60018773C /* AFNetworking */,
 				EA890E321D18D9E60018773C /* ALAssetsLibrary+CustomPhotoAlbum.h */,
 				EA890E331D18D9E60018773C /* ALAssetsLibrary+CustomPhotoAlbum.m */,
@@ -3630,6 +3799,25 @@
 			name = User;
 			sourceTree = "<group>";
 		};
+		EAE2D3DA1D7E54E100D008C1 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				EAE2D3DB1D7E54EC00D008C1 /* HeSearchInfoVC.h */,
+				EAE2D3DC1D7E54EC00D008C1 /* HeSearchInfoVC.m */,
+				EAE2D3DD1D7E54EC00D008C1 /* HeSearchInfoVC.xib */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		EAE2D3E01D7E556F00D008C1 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				EAE2D3E11D7E559D00D008C1 /* HeSearchInfoCell.h */,
+				EAE2D3E21D7E559D00D008C1 /* HeSearchInfoCell.m */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
 		EAE6B4D61D191528000DE707 /* OrderManagement */ = {
 			isa = PBXGroup;
 			children = (
@@ -3695,6 +3883,18 @@
 		EAE6B4F11D191C1A000DE707 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				EA4151411D7EB81E0009282B /* icon_into.png */,
+				EAE2D3EC1D7E986D00D008C1 /* icon_home_activity.png */,
+				EAE2D3ED1D7E986D00D008C1 /* icon_home_administration.png */,
+				EAE2D3EE1D7E986D00D008C1 /* icon_home_analysis.png */,
+				EAE2D3EF1D7E986D00D008C1 /* icon_home_evaluate.png */,
+				EAE2D3F01D7E986D00D008C1 /* icon_home_history.png */,
+				EAE2D3F11D7E986D00D008C1 /* icon_home_reconciliation.png */,
+				EAE2D3EA1D7E90C800D008C1 /* userDefalut_icon.png */,
+				EAE2D3E81D7E5B1100D008C1 /* icon_address.png */,
+				EAE2D3E61D7E5B0500D008C1 /* icon_get.png */,
+				EAE2D3E41D7E5B0100D008C1 /* icon_send.png */,
+				EAE2D3D81D7E53EF00D008C1 /* icon_query_search.png */,
 				EABFD4E91D7DCE4800160A23 /* icon_phone_blue.png */,
 				EABFD4EA1D7DCE4800160A23 /* icon_phone_orange.png */,
 				EA583BA71D2CF3FC000D1D19 /* CheckBox.png */,
@@ -3868,6 +4068,7 @@
 				EA89124F1D18DB850018773C /* HeEnrollVC.xib in Resources */,
 				EA583BAA1D2CF3FC000D1D19 /* CheckBoxSelected.png in Resources */,
 				EA8912451D18D9E90018773C /* LICENSE in Resources */,
+				EAE2D3DF1D7E54EC00D008C1 /* HeSearchInfoVC.xib in Resources */,
 				EAE6B5031D191C64000DE707 /* NavBarIOS7_white.png in Resources */,
 				EA8912371D18D9E90018773C /* FontAwesome.ttf in Resources */,
 				EAE6B5051D191C64000DE707 /* navigationBar_back_icon.png in Resources */,
@@ -3893,7 +4094,9 @@
 				EAE6B5021D191C64000DE707 /* icon-weixin.png in Resources */,
 				EADF85031D6201CD0029DC4F /* tabar_user_icon_active@3x.png in Resources */,
 				EAE6B5011D191C64000DE707 /* icon-weibo.png in Resources */,
+				EAE2D3F71D7E986D00D008C1 /* icon_home_reconciliation.png in Resources */,
 				EA89113D1D18D9E80018773C /* down_dark.png in Resources */,
+				EAE2D3D91D7E53EF00D008C1 /* icon_query_search.png in Resources */,
 				EA890DFE1D18D9760018773C /* HeTabBarVC.xib in Resources */,
 				EA8911321D18D9E80018773C /* Expression.plist in Resources */,
 				EA8911471D18D9E80018773C /* blackArrow@2x.png in Resources */,
@@ -3905,6 +4108,7 @@
 				EA8912281D18D9E90018773C /* btn_021@2x.png in Resources */,
 				EA89121A1D18D9E90018773C /* sr_refresh@2X.png in Resources */,
 				EABFD4EC1D7DCE4800160A23 /* icon_phone_orange.png in Resources */,
+				EAE2D3E51D7E5B0100D008C1 /* icon_send.png in Resources */,
 				EA89116D1D18D9E80018773C /* MJPhotoBrowser.bundle in Resources */,
 				EA8911301D18D9E80018773C /* back-arrow@3x.png in Resources */,
 				EA89112F1D18D9E80018773C /* back-arrow@2x.png in Resources */,
@@ -3916,12 +4120,16 @@
 				EA8911451D18D9E80018773C /* i2KEPCSingleComponentPickerView.xib in Resources */,
 				EA8911981D18D9E80018773C /* arrow_down1.png in Resources */,
 				EA8912221D18D9E90018773C /* bg_023@2x.png in Resources */,
+				EAE2D3EB1D7E90C800D008C1 /* userDefalut_icon.png in Resources */,
 				EA8910F41D18D9E80018773C /* LICENSE in Resources */,
 				EA8911371D18D9E80018773C /* success@2x.png in Resources */,
+				EAE2D3F31D7E986D00D008C1 /* icon_home_administration.png in Resources */,
 				EA8911A81D18D9E90018773C /* README.textile in Resources */,
+				EAE2D3F41D7E986D00D008C1 /* icon_home_analysis.png in Resources */,
 				EA8912071D18D9E90018773C /* sharemore_pic@2x.png in Resources */,
 				EA8912291D18D9E90018773C /* ProvincesAndCities.plist in Resources */,
 				EA8911A61D18D9E80018773C /* LICENSE.txt in Resources */,
+				EA4151421D7EB81E0009282B /* icon_into.png in Resources */,
 				EA890DBD1D18D8DD0018773C /* zbar-help.html in Resources */,
 				EA8912081D18D9E90018773C /* sharemore_pic@3x.png in Resources */,
 				EA8912231D18D9E90018773C /* btn_020.disable@2x.png in Resources */,
@@ -3935,11 +4143,14 @@
 				EA8911941D18D9E80018773C /* LICENSE in Resources */,
 				EA8911331D18D9E80018773C /* fail@2x.png in Resources */,
 				EA8911351D18D9E80018773C /* refresh@2x.png in Resources */,
+				EAE2D3F21D7E986D00D008C1 /* icon_home_activity.png in Resources */,
 				EA89119A1D18D9E80018773C /* arrow_down@2x.png in Resources */,
 				EA8912301D18D9E90018773C /* TZImagePickerController.bundle in Resources */,
 				EA8911361D18D9E80018773C /* refresh@3x.png in Resources */,
 				EA89189A1D1911120018773C /* HeSettingVC.xib in Resources */,
 				EA8912201D18D9E90018773C /* SVProgressHUD.bundle in Resources */,
+				EAE2D3E71D7E5B0500D008C1 /* icon_get.png in Resources */,
+				EAE2D3E91D7E5B1100D008C1 /* icon_address.png in Resources */,
 				EA8912541D18DBCD0018773C /* HeFindPasswordVC.xib in Resources */,
 				EADF84FF1D6201CD0029DC4F /* tabar_shopManagement_icon_active@3x.png in Resources */,
 				EA89115A1D18D9E80018773C /* IQKeyboardManager.bundle in Resources */,
@@ -3950,10 +4161,13 @@
 				EA890DB41D18D8DC0018773C /* WeiboSDK.bundle in Resources */,
 				EA8911381D18D9E80018773C /* success@3x.png in Resources */,
 				EA8911311D18D9E80018773C /* ClippedExpression.bundle in Resources */,
+				EA41512D1D7EA9C80009282B /* .gitkeep in Resources */,
 				EA8911461D18D9E80018773C /* blackArrow.png in Resources */,
 				EA8911741D18D9E80018773C /* LICENSE in Resources */,
 				EAE6B4F61D191C53000DE707 /* tabbar_normal_background.png in Resources */,
 				EA8911691D18D9E80018773C /* MBProgressHUD.bundle in Resources */,
+				EAE2D3F61D7E986D00D008C1 /* icon_home_history.png in Resources */,
+				EAE2D3F51D7E986D00D008C1 /* icon_home_evaluate.png in Resources */,
 				EA8911411D18D9E80018773C /* i2KEPCDatePickerView.xib in Resources */,
 				EA89114F1D18D9E80018773C /* whiteArrow@2x.png in Resources */,
 				EA8911591D18D9E80018773C /* IQActionSheetPickerView.xib in Resources */,
@@ -3986,7 +4200,9 @@
 				EA890DA21D18D8DC0018773C /* QNResolver.m in Sources */,
 				EA8911681D18D9E80018773C /* MBProgressHUD+Add.m in Sources */,
 				EA890CB31D18D8C70018773C /* Tool.m in Sources */,
+				EA4151341D7EA9C80009282B /* TKActionSheetController.m in Sources */,
 				EA8911201D18D9E80018773C /* PullMoreFooterView.m in Sources */,
+				EA4151391D7EA9C80009282B /* TKAlertViewAction.m in Sources */,
 				EA89112B1D18D9E80018773C /* DFTableViewMJRefreshControl.m in Sources */,
 				EA8911911D18D9E80018773C /* NSMutableAttributedString+MLLabel.m in Sources */,
 				EA8911661D18D9E80018773C /* README.md in Sources */,
@@ -3995,14 +4211,18 @@
 				EA89110F1D18D9E80018773C /* NSMutableDictionary+JSON.m in Sources */,
 				EA89120A1D18D9E90018773C /* NSData+ImageContentType.m in Sources */,
 				EA8911DF1D18D9E90018773C /* RACSequence.m in Sources */,
+				EA4151311D7EA9C80009282B /* UIScreen+Size.m in Sources */,
+				EA41512E1D7EA9C80009282B /* NSObject+Invocation.m in Sources */,
 				EA89110C1D18D9E80018773C /* DCWebImageManager.m in Sources */,
 				EAE6B4D41D1914A2000DE707 /* HeShopManagementVC.m in Sources */,
+				EA41513F1D7EA9C80009282B /* TKFullScreenWindow.m in Sources */,
 				EA890D891D18D8DC0018773C /* rscode.c in Sources */,
 				EA8911921D18D9E80018773C /* NSString+MLExpression.m in Sources */,
 				EA890DAB1D18D8DC0018773C /* QNDes.m in Sources */,
 				EA8911D61D18D9E90018773C /* RACKVOTrampoline.m in Sources */,
 				EA8911F11D18D9E90018773C /* RACValueTransformer.m in Sources */,
 				EA8911CE1D18D9E90018773C /* RACEmptySignal.m in Sources */,
+				EA4151351D7EA9C80009282B /* TKActionSheetManager.m in Sources */,
 				EA8911CD1D18D9E90018773C /* RACEmptySequence.m in Sources */,
 				EADF850E1D620C430029DC4F /* HeUserVC.m in Sources */,
 				EAE6B4EB1D191754000DE707 /* HeOrderTableCell.m in Sources */,
@@ -4012,9 +4232,11 @@
 				EA8910F21D18D9E80018773C /* AFURLResponseSerialization.m in Sources */,
 				EAE6B4E61D1916FA000DE707 /* HeOrderVC.m in Sources */,
 				EA8911A31D18D9E80018773C /* NYSegment.m in Sources */,
+				EAE2D3E31D7E559D00D008C1 /* HeSearchInfoCell.m in Sources */,
 				EA890D921D18D8DC0018773C /* QNFile.m in Sources */,
 				EA8912481D18D9E90018773C /* YLImageView.m in Sources */,
 				EA8911801D18D9E80018773C /* MJRefreshGifHeader.m in Sources */,
+				EA4151321D7EA9C80009282B /* UIViewAdditions.m in Sources */,
 				EA89117F1D18D9E80018773C /* MJRefreshBackStateFooter.m in Sources */,
 				EA890DA71D18D8DC0018773C /* QNResumeUpload.m in Sources */,
 				EA89116E1D18D9E80018773C /* MJPhotoBrowser.m in Sources */,
@@ -4039,6 +4261,7 @@
 				EABFD4E01D7DC0EC00160A23 /* HeHandleOrderCell.m in Sources */,
 				EA8910FB1D18D9E80018773C /* UIProgressView+AFNetworking.m in Sources */,
 				EA890D8A1D18D8DC0018773C /* split.c in Sources */,
+				EA41513B1D7EA9C80009282B /* TKAlertViewController.m in Sources */,
 				EA890DD21D18D8F70018773C /* EaseEmoji.m in Sources */,
 				EA8911F31D18D9E90018773C /* UIAlertView+RACSignalSupport.m in Sources */,
 				EA89112C1D18D9E80018773C /* DFTableViewNativeRefreshControl.m in Sources */,
@@ -4059,11 +4282,13 @@
 				EA8911C31D18D9E90018773C /* RACBlockTrampoline.m in Sources */,
 				EA8911CF1D18D9E90018773C /* RACErrorSignal.m in Sources */,
 				EA8911731D18D9E80018773C /* README.md in Sources */,
+				EAE2D3DE1D7E54EC00D008C1 /* HeSearchInfoVC.m in Sources */,
 				EA8912361D18D9E90018773C /* UIView+Layout.m in Sources */,
 				EA89121C1D18D9E90018773C /* SRSlimeView.m in Sources */,
 				EA8911961D18D9E80018773C /* MRZoomScrollView.m in Sources */,
 				EA8911A71D18D9E80018773C /* ODRefreshControl.m in Sources */,
 				EA890DAA1D18D8DC0018773C /* QNUpToken.m in Sources */,
+				EA41513D1D7EA9C80009282B /* TKTextFieldAlertViewController.m in Sources */,
 				EA890CCE1D18D8CE0018773C /* HeBuddy.m in Sources */,
 				EA890D941D18D8DC0018773C /* QNPHAssetFile.m in Sources */,
 				EA8911861D18D9E80018773C /* UIScrollView+MJRefresh.m in Sources */,
@@ -4193,6 +4418,7 @@
 				EA8911FA1D18D9E90018773C /* UIGestureRecognizer+RACSignalSupport.m in Sources */,
 				EA890D911D18D8DC0018773C /* QNEtag.m in Sources */,
 				EA89118B1D18D9E80018773C /* MLLabelLayoutManager.m in Sources */,
+				EA41512F1D7EA9C80009282B /* UIDeviceAdditions.m in Sources */,
 				EA890CA31D18D8C00018773C /* NSString+change.m in Sources */,
 				EA8911F01D18D9E90018773C /* RACUnit.m in Sources */,
 				EA890DD61D18D8F70018773C /* HeConvertToCommonEmoticonsHelper.m in Sources */,
@@ -4211,6 +4437,7 @@
 				EA8911241D18D9E80018773C /* DFImageHelper.m in Sources */,
 				EA890C291D18D0AF0018773C /* ViewController.m in Sources */,
 				EA8912531D18DBCD0018773C /* HeFindPasswordVC.m in Sources */,
+				EA4151371D7EA9C80009282B /* TKAlertManager.m in Sources */,
 				EA8911DA1D18D9E90018773C /* RACQueueScheduler.m in Sources */,
 				EA8911EF1D18D9E90018773C /* RACUnarySequence.m in Sources */,
 				EA8911841D18D9E80018773C /* MJRefreshConst.m in Sources */,
@@ -4231,23 +4458,27 @@
 				EA890CA51D18D8C00018773C /* UIResponder+Router.m in Sources */,
 				EA8911E61D18D9E90018773C /* RACStringSequence.m in Sources */,
 				EA8911771D18D9E80018773C /* MJRefreshComponent.m in Sources */,
+				EA4151381D7EA9C80009282B /* TKAlertOverlayWindow.m in Sources */,
 				EA8911C41D18D9E90018773C /* RACChannel.m in Sources */,
 				EA8910EB1D18D9E80018773C /* AFHTTPRequestOperation.m in Sources */,
 				EA890D971D18D8DC0018773C /* QNUrlSafeBase64.m in Sources */,
 				EA890DD11D18D8F70018773C /* EaseConvertToCommonEmoticonsHelper.m in Sources */,
 				EA8911F71D18D9E90018773C /* UIControl+RACSignalSupport.m in Sources */,
 				EA89119E1D18D9E80018773C /* SIMenuConfiguration.m in Sources */,
+				EA4151401D7EA9C80009282B /* TKFullScreenWindowBackground.m in Sources */,
 				EA8911AB1D18D9E90018773C /* NSArray+RACSequenceAdditions.m in Sources */,
 				EA8911951D18D9E80018773C /* README.md in Sources */,
 				EA8911441D18D9E80018773C /* i2KEPCSingleComponentPickerView.m in Sources */,
 				EA8912101D18D9E90018773C /* SDWebImageManager.m in Sources */,
 				EA89119C1D18D9E80018773C /* SIMenuButton.m in Sources */,
 				EA890CCC1D18D8CE0018773C /* HeApplyBuddy.m in Sources */,
+				EA4151331D7EA9C80009282B /* UIWindow+Alert.m in Sources */,
 				EA8911EA1D18D9E90018773C /* RACSubscriptionScheduler.m in Sources */,
 				EA8912131D18D9E90018773C /* UIImage+GIF.m in Sources */,
 				EA8911121D18D9E80018773C /* UILabel+Corner.m in Sources */,
 				EA89115F1D18D9E80018773C /* IQToolbar.m in Sources */,
 				EA890DA91D18D8DC0018773C /* QNUploadOption.m in Sources */,
+				EA41513A1D7EA9C80009282B /* TKAlertViewController+Private.m in Sources */,
 				EA8911C81D18D9E90018773C /* RACDelegateProxy.m in Sources */,
 				EA89123A1D18D9E90018773C /* UIButton+associate.m in Sources */,
 				EA890DF71D18D9500018773C /* RDVTabBar.m in Sources */,
@@ -4300,6 +4531,7 @@
 				EA8911E31D18D9E90018773C /* RACSignalProvider.d in Sources */,
 				EA890C261D18D0AF0018773C /* AppDelegate.m in Sources */,
 				EA8911A51D18D9E80018773C /* NYSegmentIndicator.m in Sources */,
+				EA41513C1D7EA9C80009282B /* TKFirstResponseAlertViewController.m in Sources */,
 				EABFD4E31D7DC11C00160A23 /* HeChargeBackOrderCell.m in Sources */,
 				EA8912431D18D9E90018773C /* UIView+convenience.m in Sources */,
 				EA8912041D18D9E90018773C /* UITextView+RACSignalSupport.m in Sources */,
@@ -4332,6 +4564,7 @@
 				EA8911BB1D18D9E90018773C /* NSString+RACKeyPathUtilities.m in Sources */,
 				EA89119B1D18D9E80018773C /* SICellSelection.m in Sources */,
 				EA8911B91D18D9E90018773C /* NSOrderedSet+RACSequenceAdditions.m in Sources */,
+				EA41513E1D7EA9C80009282B /* TKBlurView.m in Sources */,
 				EA8911101D18D9E80018773C /* UIBarButtonItem+Lite.m in Sources */,
 				EA8911B61D18D9E90018773C /* NSObject+RACLifting.m in Sources */,
 				EA8912381D18D9E90018773C /* NSString+Catagory.m in Sources */,
@@ -4347,6 +4580,7 @@
 				EA89112A1D18D9E80018773C /* DFTableViewEGORefreshControl.m in Sources */,
 				EA8911F81D18D9E90018773C /* UIControl+RACSignalSupportPrivate.m in Sources */,
 				EA8910EE1D18D9E80018773C /* AFNetworkReachabilityManager.m in Sources */,
+				EA4151301D7EA9C80009282B /* UIImageExtend.m in Sources */,
 				EA8911E21D18D9E90018773C /* RACSignal.m in Sources */,
 				EA8911A11D18D9E80018773C /* UIColor+Extension.m in Sources */,
 				EA89118C1D18D9E80018773C /* MLLabelTextStorage.m in Sources */,
@@ -4371,6 +4605,7 @@
 				EA890CB41D18D8C70018773C /* UIImageUploader.m in Sources */,
 				EA8911791D18D9E80018773C /* MJRefreshHeader.m in Sources */,
 				EA8910ED1D18D9E80018773C /* AFHTTPSessionManager.m in Sources */,
+				EA4151361D7EA9C80009282B /* TKActionSheetOverlayWindow.m in Sources */,
 				EA890D9D1D18D8DC0018773C /* QNSessionManager.m in Sources */,
 				EA8911B41D18D9E90018773C /* NSObject+RACDescription.m in Sources */,
 				EA8911191D18D9E80018773C /* DFBaseDataService.m in Sources */,

@@ -109,36 +109,15 @@
         CGFloat iconY = CGRectGetMaxY(bottomLine.frame) + 10;
         CGFloat iconW = 30;
         CGFloat iconH = iconW;
-        UIView *iconView = [[UIView alloc] initWithFrame:CGRectMake(iconX, iconY, iconW, iconH)];
-        iconView.layer.masksToBounds = YES;
-        iconView.layer.cornerRadius = iconW / 2.0;
-        iconView.layer.borderWidth = 1.0;
-        iconView.layer.borderColor = [UIColor blueColor].CGColor;
+        
+        UIImageView *iconView = [[UIImageView alloc] initWithFrame:CGRectMake(iconX, iconY, iconW, iconH)];
+        iconView.image = [UIImage imageNamed:@"icon_get"];
         [orderBgView addSubview:iconView];
         
-        UILabel *iconLabel = [[UILabel alloc] initWithFrame:iconView.bounds];
-        iconLabel.backgroundColor = [UIColor clearColor];
-        iconLabel.textColor = [UIColor blueColor];
-        iconLabel.font = [UIFont systemFontOfSize:15.0];
-        iconLabel.text = @"取";
-        iconLabel.textAlignment = NSTextAlignmentCenter;
-        [iconView addSubview:iconLabel];
-        
         iconY = CGRectGetMaxY(iconView.frame) + 10;
-        UIView *iconView1 = [[UIView alloc] initWithFrame:CGRectMake(iconX, iconY, iconW, iconH)];
-        iconView1.layer.masksToBounds = YES;
-        iconView1.layer.cornerRadius = iconW / 2.0;
-        iconView1.layer.borderWidth = 1.0;
-        iconView1.layer.borderColor = [UIColor orangeColor].CGColor;
+        UIImageView *iconView1 = [[UIImageView alloc] initWithFrame:CGRectMake(iconX, iconY, iconW, iconH)];
+        iconView1.image = [UIImage imageNamed:@"icon_send"];
         [orderBgView addSubview:iconView1];
-        
-        UILabel *iconLabel1 = [[UILabel alloc] initWithFrame:iconView1.bounds];
-        iconLabel1.backgroundColor = [UIColor clearColor];
-        iconLabel1.textColor = [UIColor orangeColor];
-        iconLabel1.font = [UIFont systemFontOfSize:15.0];
-        iconLabel1.text = @"送";
-        iconLabel1.textAlignment = NSTextAlignmentCenter;
-        [iconView1 addSubview:iconLabel1];
         
         //取餐地址
         CGFloat addressX = CGRectGetMaxX(iconView.frame) + 10;

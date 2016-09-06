@@ -50,6 +50,8 @@
 - (void)initView
 {
     [super initView];
+    settingTable.backgroundView = nil;
+    settingTable.backgroundColor = [UIColor colorWithWhite:237.0 / 255.0 alpha:1.0];
     [Tool setExtraCellLineHidden:settingTable];
 }
 
