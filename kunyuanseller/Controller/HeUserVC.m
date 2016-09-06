@@ -10,6 +10,12 @@
 #import "HeBaseTableViewCell.h"
 #import "UIButton+Bootstrap.h"
 #import "TKTextFieldAlertViewController.h"
+#import "HeShopActivityVC.h"
+#import "HeFinanceAccountVC.h"
+#import "HeManageAnalyseVC.h"
+#import "HeGoodsManageVC.h"
+#import "HeHistoryOrderVC.h"
+#import "HeUserCommentVC.h"
 
 #define USERHEADTAD 200
 #define USERNAMETAG 300
@@ -259,7 +265,14 @@
 
 - (void)buttonClick:(UIButton *)sender
 {
-    NSLog(@"buttonClick");
+    NSArray *viewControllerArray = @[@"HeShopActivityVC",@"HeFinanceAccountVC",@"HeManageAnalyseVC",@"HeGoodsManageVC",@"HeHistoryOrderVC",@"HeUserCommentVC"];
+    NSString *viewControllerName = viewControllerArray[sender.tag];
+    id myViewControllerObj = [[NSClassFromString(viewControllerName) alloc] init];
+    if ([myViewControllerObj isKindOfClass:[UIViewController class]]) {
+        UIViewController *myViewController = (UIViewController *)myViewControllerObj;
+        myViewController.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:myViewController animated:YES];
+    }
 }
 
 - (void)logOutButtonClick:(UIButton *)sender

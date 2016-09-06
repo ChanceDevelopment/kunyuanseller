@@ -9,14 +9,22 @@
 #import "HeShopManagementVC.h"
 #import "HeShopManagementCell.h"
 #import "UIButton+Bootstrap.h"
+#import "TKAlertViewController.h"
+
+#define SHOPSTATETAG 300
 
 @interface HeShopManagementVC ()
+{
+    BOOL onBusiness;
+}
 @property(strong,nonatomic)IBOutlet UITableView *tableview;
+@property(strong,nonatomic)NSArray *shopInfoArray;
 
 @end
 
 @implementation HeShopManagementVC
 @synthesize tableview;
+@synthesize shopInfoArray;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -58,6 +66,8 @@
 - (void)initializaiton
 {
     [super initializaiton];
+    shopInfoArray = @[@"天天水果店",@"留下西溪路256号",@"店铺简介",@"店铺公告",@"营业时间"];
+    onBusiness = NO;
 }
 
 - (void)initView
@@ -122,6 +132,7 @@
     stateLabel.backgroundColor = [UIColor clearColor];
     stateLabel.textColor = [UIColor redColor];
     stateLabel.text = state;
+    stateLabel.tag = SHOPSTATETAG;
     stateLabel.font = [UIFont systemFontOfSize:15.0];
     stateLabel.textAlignment = NSTextAlignmentRight;
     [headerview addSubview:stateLabel];
@@ -149,6 +160,41 @@
 - (void)openShopButtonClick:(UIButton *)button
 {
     NSLog(@"openShopButtonClick");
+    onBusiness = !onBusiness;
+    NSString *shopState = @"打烊中";
+    if (onBusiness) {
+        shopState = @"营业中";
+    }
+    UILabel *stateLabel = [tableview.tableHeaderView viewWithTag:SHOPSTATETAG];
+    stateLabel.text = shopState;
+    if (onBusiness) {
+        stateLabel.textColor = [UIColor colorWithRed:83.0 / 255.0 green:202.0 / 255.0 blue:196.0 / 255.0 alpha:1.0];
+    }
+    else{
+        stateLabel.textColor = [UIColor redColor];
+    }
+    
+    UIView *footerview = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREENWIDTH, 60)];
+    footerview.backgroundColor = [UIColor colorWithWhite:237.0 / 255.0 alpha:1.0];
+    tableview.tableFooterView = footerview;
+    footerview.userInteractionEnabled = YES;
+    
+    UIButton *openShopButton = [[UIButton alloc] initWithFrame:CGRectMake(20, 10, SCREENWIDTH - 40, 40)];
+    [openShopButton setTitle:@"一键打烊" forState:UIControlStateNormal];
+    [openShopButton dangerStyle];
+    if (!onBusiness) {
+        [openShopButton setTitle:@"一键开店" forState:UIControlStateNormal];
+        [openShopButton setBackgroundImage:[Tool buttonImageFromColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"NavBarIOS7"]] withImageSize:openShopButton.frame.size] forState:UIControlStateNormal];
+        [openShopButton.titleLabel setFont:[UIFont systemFontOfSize:16.0]];
+        [openShopButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    }
+    [openShopButton.titleLabel setFont:[UIFont systemFontOfSize:16.0]];
+    [openShopButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [footerview addSubview:openShopButton];
+    [openShopButton addTarget:self action:@selector(openShopButtonClick:) forControlEvents:UIControlEventTouchUpInside];
+    [footerview addSubview:openShopButton];
+    
+    [tableview reloadData];
 }
 
 - (void)scanButtonClick:(UIButton *)button
@@ -166,6 +212,9 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
+    if (onBusiness) {
+        return [shopInfoArray count];
+    }
     return 0;
 }
 
@@ -186,8 +235,7 @@
     
     cell.textLabel.font = [UIFont systemFontOfSize:15.0];
     cell.textLabel.textColor = [UIColor blackColor];
-    
-    
+    cell.textLabel.text = shopInfoArray[row];
     
     return cell;
     
@@ -203,8 +251,72 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    NSInteger row = indexPath.row;
+    NSInteger section = indexPath.section;
+    
+    
+    NSString *message = nil;
+    NSString *title = nil;
+    switch (row) {
+        case 2:
+        {
+            title = @"店铺简介";
+            message = @"店铺暂无简介";
+            break;
+        }
+        case 3:
+        {
+            title = @"店铺公告";
+            message = @"店铺暂无公告";
+            break;
+        }
+        case 4:
+        {
+            title = @"营业时间";
+            message = @"未设置营业时间";
+            break;
+        }
+        default:
+            break;
+    }
+    if (title == nil || message == nil) {
+        return;
+    }
+    TKAlertViewController *alert = [TKAlertViewController alertWithTitle:title message:message];
+    //    alert.customeViewInset = UIEdgeInsetsMake(100, 0, 100, 0);
+    //    [alert addButtonWithTitle:@"" block:^(NSUInteger index) {
+    //        [self testTextFieldAlertView];
+    //    }];
+    //
+    //    [alert addButtonWithTitle:@"cancel" block:nil];
+    alert.dismissWhenTapWindow = YES;
+    [alert showWithAnimationType:TKAlertViewAnimationPathStyle];
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    if (!onBusiness) {
+        return 0;
+    }
+    return 30.0;
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    if (!onBusiness) {
+        return nil;
+    }
+    UIView *bgView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREENWIDTH, 30)];
+    bgView.backgroundColor = [UIColor colorWithWhite:237.0 / 255.0 alpha:1.0];
+    UILabel *titleLabel = [[UILabel alloc] initWithFrame:bgView.bounds];
+    titleLabel.text = @"  店铺信息";
+    titleLabel.backgroundColor = [UIColor clearColor];
+    titleLabel.font = [UIFont systemFontOfSize:15.0];
+    titleLabel.textColor = [UIColor grayColor];
+    [bgView addSubview:titleLabel];
+    
+    return bgView;
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
