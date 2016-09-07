@@ -119,6 +119,9 @@
     [searchButton addTarget:self action:@selector(barButtonItemClick:) forControlEvents:UIControlEventTouchUpInside];
     searchButton.tag = 1;
     
+    UIBarButtonItem *searchItem = [[UIBarButtonItem alloc] initWithCustomView:searchButton];
+    self.navigationItem.rightBarButtonItem = searchItem;
+    
     
 }
 

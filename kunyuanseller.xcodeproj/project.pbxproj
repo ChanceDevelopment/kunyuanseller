@@ -28,6 +28,24 @@
 		EA41513F1D7EA9C80009282B /* TKFullScreenWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41512A1D7EA9C80009282B /* TKFullScreenWindow.m */; };
 		EA4151401D7EA9C80009282B /* TKFullScreenWindowBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41512C1D7EA9C80009282B /* TKFullScreenWindowBackground.m */; };
 		EA4151421D7EB81E0009282B /* icon_into.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4151411D7EB81E0009282B /* icon_into.png */; };
+		EA4151441D7FAB870009282B /* menu_add.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4151431D7FAB870009282B /* menu_add.png */; };
+		EA4151491D7FAE5D0009282B /* HeShopActivityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4151481D7FAE5D0009282B /* HeShopActivityCell.m */; };
+		EA41514C1D7FAEEF0009282B /* HeFinanceAccountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41514B1D7FAEEF0009282B /* HeFinanceAccountCell.m */; };
+		EA41514F1D7FAF1C0009282B /* HeManageAnalyseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41514E1D7FAF1C0009282B /* HeManageAnalyseCell.m */; };
+		EA4151521D7FAF3C0009282B /* HeGoodsManageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4151511D7FAF3C0009282B /* HeGoodsManageCell.m */; };
+		EA4151551D7FAF9A0009282B /* HeUserCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4151541D7FAF9A0009282B /* HeUserCommentCell.m */; };
+		EA4151581D7FB0C20009282B /* HeHistoryOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4151571D7FB0C20009282B /* HeHistoryOrderCell.m */; };
+		EA4151601D7FE7D10009282B /* HcdDateTimePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41515B1D7FE7D10009282B /* HcdDateTimePickerView.m */; };
+		EA4151611D7FE7D10009282B /* MXSCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41515D1D7FE7D10009282B /* MXSCycleScrollView.m */; };
+		EA4151621D7FE7D10009282B /* UIColor+HcdCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41515F1D7FE7D10009282B /* UIColor+HcdCustom.m */; };
+		EA4151671D7FFBB10009282B /* HeActivityEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4151651D7FFBB10009282B /* HeActivityEditVC.m */; };
+		EA4151681D7FFBB10009282B /* HeActivityEditVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA4151661D7FFBB10009282B /* HeActivityEditVC.xib */; };
+		EA41516C1D7FFD260009282B /* HeGoodsInfoEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41516A1D7FFD260009282B /* HeGoodsInfoEditVC.m */; };
+		EA41516D1D7FFD260009282B /* HeGoodsInfoEditVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA41516B1D7FFD260009282B /* HeGoodsInfoEditVC.xib */; };
+		EA4151711D8000960009282B /* SRActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4151701D8000960009282B /* SRActionSheet.m */; };
+		EA4151741D800EC10009282B /* ScanPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4151731D800EC10009282B /* ScanPictureView.m */; };
+		EA4151781D800FCC0009282B /* UIView+Genie.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4151771D800FCC0009282B /* UIView+Genie.m */; };
+		EA41517A1D8012B60009282B /* icon_add_pho.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4151791D8012B60009282B /* icon_add_pho.png */; };
 		EA583BA91D2CF3FC000D1D19 /* CheckBox.png in Resources */ = {isa = PBXBuildFile; fileRef = EA583BA71D2CF3FC000D1D19 /* CheckBox.png */; };
 		EA583BAA1D2CF3FC000D1D19 /* CheckBoxSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = EA583BA81D2CF3FC000D1D19 /* CheckBoxSelected.png */; };
 		EA6EDC391D7EFF2400D86F91 /* HeShopActivityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6EDC371D7EFF2400D86F91 /* HeShopActivityVC.m */; };
@@ -657,6 +675,39 @@
 		EA41512B1D7EA9C80009282B /* TKFullScreenWindowBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKFullScreenWindowBackground.h; sourceTree = "<group>"; };
 		EA41512C1D7EA9C80009282B /* TKFullScreenWindowBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKFullScreenWindowBackground.m; sourceTree = "<group>"; };
 		EA4151411D7EB81E0009282B /* icon_into.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_into.png; sourceTree = "<group>"; };
+		EA4151431D7FAB870009282B /* menu_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_add.png; sourceTree = "<group>"; };
+		EA4151471D7FAE5D0009282B /* HeShopActivityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeShopActivityCell.h; sourceTree = "<group>"; };
+		EA4151481D7FAE5D0009282B /* HeShopActivityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeShopActivityCell.m; sourceTree = "<group>"; };
+		EA41514A1D7FAEEF0009282B /* HeFinanceAccountCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeFinanceAccountCell.h; sourceTree = "<group>"; };
+		EA41514B1D7FAEEF0009282B /* HeFinanceAccountCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeFinanceAccountCell.m; sourceTree = "<group>"; };
+		EA41514D1D7FAF1C0009282B /* HeManageAnalyseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeManageAnalyseCell.h; sourceTree = "<group>"; };
+		EA41514E1D7FAF1C0009282B /* HeManageAnalyseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeManageAnalyseCell.m; sourceTree = "<group>"; };
+		EA4151501D7FAF3C0009282B /* HeGoodsManageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeGoodsManageCell.h; sourceTree = "<group>"; };
+		EA4151511D7FAF3C0009282B /* HeGoodsManageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeGoodsManageCell.m; sourceTree = "<group>"; };
+		EA4151531D7FAF9A0009282B /* HeUserCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeUserCommentCell.h; sourceTree = "<group>"; };
+		EA4151541D7FAF9A0009282B /* HeUserCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeUserCommentCell.m; sourceTree = "<group>"; };
+		EA4151561D7FB0C20009282B /* HeHistoryOrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeHistoryOrderCell.h; sourceTree = "<group>"; };
+		EA4151571D7FB0C20009282B /* HeHistoryOrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeHistoryOrderCell.m; sourceTree = "<group>"; };
+		EA41515A1D7FE7D10009282B /* HcdDateTimePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HcdDateTimePickerView.h; sourceTree = "<group>"; };
+		EA41515B1D7FE7D10009282B /* HcdDateTimePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HcdDateTimePickerView.m; sourceTree = "<group>"; };
+		EA41515C1D7FE7D10009282B /* MXSCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXSCycleScrollView.h; sourceTree = "<group>"; };
+		EA41515D1D7FE7D10009282B /* MXSCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXSCycleScrollView.m; sourceTree = "<group>"; };
+		EA41515E1D7FE7D10009282B /* UIColor+HcdCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HcdCustom.h"; sourceTree = "<group>"; };
+		EA41515F1D7FE7D10009282B /* UIColor+HcdCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HcdCustom.m"; sourceTree = "<group>"; };
+		EA4151641D7FFBB10009282B /* HeActivityEditVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeActivityEditVC.h; sourceTree = "<group>"; };
+		EA4151651D7FFBB10009282B /* HeActivityEditVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeActivityEditVC.m; sourceTree = "<group>"; };
+		EA4151661D7FFBB10009282B /* HeActivityEditVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeActivityEditVC.xib; sourceTree = "<group>"; };
+		EA4151691D7FFD260009282B /* HeGoodsInfoEditVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeGoodsInfoEditVC.h; sourceTree = "<group>"; };
+		EA41516A1D7FFD260009282B /* HeGoodsInfoEditVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeGoodsInfoEditVC.m; sourceTree = "<group>"; };
+		EA41516B1D7FFD260009282B /* HeGoodsInfoEditVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeGoodsInfoEditVC.xib; sourceTree = "<group>"; };
+		EA41516F1D8000960009282B /* SRActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRActionSheet.h; sourceTree = "<group>"; };
+		EA4151701D8000960009282B /* SRActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRActionSheet.m; sourceTree = "<group>"; };
+		EA4151721D800EC10009282B /* ScanPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanPictureView.h; sourceTree = "<group>"; };
+		EA4151731D800EC10009282B /* ScanPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanPictureView.m; sourceTree = "<group>"; };
+		EA4151751D800F480009282B /* DeleteImageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteImageProtocol.h; sourceTree = "<group>"; };
+		EA4151761D800FCC0009282B /* UIView+Genie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Genie.h"; sourceTree = "<group>"; };
+		EA4151771D800FCC0009282B /* UIView+Genie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Genie.m"; sourceTree = "<group>"; };
+		EA4151791D8012B60009282B /* icon_add_pho.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_add_pho.png; sourceTree = "<group>"; };
 		EA583BA71D2CF3FC000D1D19 /* CheckBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CheckBox.png; sourceTree = "<group>"; };
 		EA583BA81D2CF3FC000D1D19 /* CheckBoxSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CheckBoxSelected.png; sourceTree = "<group>"; };
 		EA6EDC361D7EFF2400D86F91 /* HeShopActivityVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeShopActivityVC.h; sourceTree = "<group>"; };
@@ -1835,6 +1886,60 @@
 			path = TKAlert;
 			sourceTree = "<group>";
 		};
+		EA4151451D7FAE440009282B /* User */ = {
+			isa = PBXGroup;
+			children = (
+				EA4151471D7FAE5D0009282B /* HeShopActivityCell.h */,
+				EA4151481D7FAE5D0009282B /* HeShopActivityCell.m */,
+				EA41514A1D7FAEEF0009282B /* HeFinanceAccountCell.h */,
+				EA41514B1D7FAEEF0009282B /* HeFinanceAccountCell.m */,
+				EA41514D1D7FAF1C0009282B /* HeManageAnalyseCell.h */,
+				EA41514E1D7FAF1C0009282B /* HeManageAnalyseCell.m */,
+				EA4151501D7FAF3C0009282B /* HeGoodsManageCell.h */,
+				EA4151511D7FAF3C0009282B /* HeGoodsManageCell.m */,
+				EA4151531D7FAF9A0009282B /* HeUserCommentCell.h */,
+				EA4151541D7FAF9A0009282B /* HeUserCommentCell.m */,
+				EA4151561D7FB0C20009282B /* HeHistoryOrderCell.h */,
+				EA4151571D7FB0C20009282B /* HeHistoryOrderCell.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		EA4151591D7FE7D10009282B /* HcdDateTimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				EA41515A1D7FE7D10009282B /* HcdDateTimePickerView.h */,
+				EA41515B1D7FE7D10009282B /* HcdDateTimePickerView.m */,
+				EA41515C1D7FE7D10009282B /* MXSCycleScrollView.h */,
+				EA41515D1D7FE7D10009282B /* MXSCycleScrollView.m */,
+				EA41515E1D7FE7D10009282B /* UIColor+HcdCustom.h */,
+				EA41515F1D7FE7D10009282B /* UIColor+HcdCustom.m */,
+			);
+			path = HcdDateTimePicker;
+			sourceTree = "<group>";
+		};
+		EA4151631D7FFB8B0009282B /* EditInfo */ = {
+			isa = PBXGroup;
+			children = (
+				EA4151641D7FFBB10009282B /* HeActivityEditVC.h */,
+				EA4151651D7FFBB10009282B /* HeActivityEditVC.m */,
+				EA4151661D7FFBB10009282B /* HeActivityEditVC.xib */,
+				EA4151691D7FFD260009282B /* HeGoodsInfoEditVC.h */,
+				EA41516A1D7FFD260009282B /* HeGoodsInfoEditVC.m */,
+				EA41516B1D7FFD260009282B /* HeGoodsInfoEditVC.xib */,
+			);
+			name = EditInfo;
+			sourceTree = "<group>";
+		};
+		EA41516E1D8000960009282B /* SRActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				EA41516F1D8000960009282B /* SRActionSheet.h */,
+				EA4151701D8000960009282B /* SRActionSheet.m */,
+			);
+			path = SRActionSheet;
+			sourceTree = "<group>";
+		};
 		EA890C151D18D0AF0018773C = {
 			isa = PBXGroup;
 			children = (
@@ -2414,6 +2519,7 @@
 		EA890DE01D18D9230018773C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EA4151451D7FAE440009282B /* User */,
 				EAE2D3E01D7E556F00D008C1 /* Search */,
 				EAE6B4E81D191720000DE707 /* Order */,
 				EAE6B4D81D19152D000DE707 /* ShopManagement */,
@@ -2427,6 +2533,7 @@
 		EA890DE11D18D9270018773C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				EA4151631D7FFB8B0009282B /* EditInfo */,
 				EAE2D3DA1D7E54E100D008C1 /* Search */,
 				EADF85101D620C4A0029DC4F /* User */,
 				EAE6B51F1D19253D000DE707 /* HeInstructionView */,
@@ -2483,6 +2590,13 @@
 		EA890E051D18D9E60018773C /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				EA4151761D800FCC0009282B /* UIView+Genie.h */,
+				EA4151771D800FCC0009282B /* UIView+Genie.m */,
+				EA4151751D800F480009282B /* DeleteImageProtocol.h */,
+				EA4151721D800EC10009282B /* ScanPictureView.h */,
+				EA4151731D800EC10009282B /* ScanPictureView.m */,
+				EA41516E1D8000960009282B /* SRActionSheet */,
+				EA4151591D7FE7D10009282B /* HcdDateTimePicker */,
 				EA4151001D7EA9C80009282B /* AlertView */,
 				EA890E061D18D9E60018773C /* AFNetworking */,
 				EA890E321D18D9E60018773C /* ALAssetsLibrary+CustomPhotoAlbum.h */,
@@ -3931,6 +4045,8 @@
 		EAE6B4F11D191C1A000DE707 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				EA4151791D8012B60009282B /* icon_add_pho.png */,
+				EA4151431D7FAB870009282B /* menu_add.png */,
 				EA4151411D7EB81E0009282B /* icon_into.png */,
 				EAE2D3EC1D7E986D00D008C1 /* icon_home_activity.png */,
 				EAE2D3ED1D7E986D00D008C1 /* icon_home_administration.png */,
@@ -4179,6 +4295,7 @@
 				EA8911371D18D9E80018773C /* success@2x.png in Resources */,
 				EAE2D3F31D7E986D00D008C1 /* icon_home_administration.png in Resources */,
 				EA8911A81D18D9E90018773C /* README.textile in Resources */,
+				EA41517A1D8012B60009282B /* icon_add_pho.png in Resources */,
 				EAE2D3F41D7E986D00D008C1 /* icon_home_analysis.png in Resources */,
 				EA8912071D18D9E90018773C /* sharemore_pic@2x.png in Resources */,
 				EA8912291D18D9E90018773C /* ProvincesAndCities.plist in Resources */,
@@ -4186,11 +4303,13 @@
 				EA4151421D7EB81E0009282B /* icon_into.png in Resources */,
 				EA890DBD1D18D8DD0018773C /* zbar-help.html in Resources */,
 				EA8912081D18D9E90018773C /* sharemore_pic@3x.png in Resources */,
+				EA4151681D7FFBB10009282B /* HeActivityEditVC.xib in Resources */,
 				EA8912231D18D9E90018773C /* btn_020.disable@2x.png in Resources */,
 				EA8912271D18D9E90018773C /* btn_021.press@2x.png in Resources */,
 				EA890DBF1D18D8DD0018773C /* zbar-samples.png in Resources */,
 				EA890C2C1D18D0AF0018773C /* Main.storyboard in Resources */,
 				EAE6B4F71D191C53000DE707 /* tabbar_normal_background@2x.png in Resources */,
+				EA41516D1D7FFD260009282B /* HeGoodsInfoEditVC.xib in Resources */,
 				EAE6B4CB1D191457000DE707 /* HeOrderManagementVC.xib in Resources */,
 				EA890DEF1D18D9380018773C /* HeLoginVC.xib in Resources */,
 				EADF85001D6201CD0029DC4F /* tabar_shopManagement_icon_normal@3x.png in Resources */,
@@ -4208,6 +4327,7 @@
 				EAE2D3E91D7E5B1100D008C1 /* icon_address.png in Resources */,
 				EA8912541D18DBCD0018773C /* HeFindPasswordVC.xib in Resources */,
 				EADF84FF1D6201CD0029DC4F /* tabar_shopManagement_icon_active@3x.png in Resources */,
+				EA4151441D7FAB870009282B /* menu_add.png in Resources */,
 				EA89115A1D18D9E80018773C /* IQKeyboardManager.bundle in Resources */,
 				EA583BA91D2CF3FC000D1D19 /* CheckBox.png in Resources */,
 				EADF850F1D620C430029DC4F /* HeUserVC.xib in Resources */,
@@ -4283,6 +4403,7 @@
 				EAE6B4EB1D191754000DE707 /* HeOrderTableCell.m in Sources */,
 				EA8912351D18D9E90018773C /* TZVideoPlayerController.m in Sources */,
 				EA890D9A1D18D8DC0018773C /* QNDnspodFree.m in Sources */,
+				EA4151521D7FAF3C0009282B /* HeGoodsManageCell.m in Sources */,
 				EA8911D91D18D9E90018773C /* RACPassthroughSubscriber.m in Sources */,
 				EA8910F21D18D9E80018773C /* AFURLResponseSerialization.m in Sources */,
 				EAE6B4E61D1916FA000DE707 /* HeOrderVC.m in Sources */,
@@ -4343,6 +4464,7 @@
 				EA8912361D18D9E90018773C /* UIView+Layout.m in Sources */,
 				EA89121C1D18D9E90018773C /* SRSlimeView.m in Sources */,
 				EA8911961D18D9E80018773C /* MRZoomScrollView.m in Sources */,
+				EA4151781D800FCC0009282B /* UIView+Genie.m in Sources */,
 				EA8911A71D18D9E80018773C /* ODRefreshControl.m in Sources */,
 				EA890DAA1D18D8DC0018773C /* QNUpToken.m in Sources */,
 				EA41513D1D7EA9C80009282B /* TKTextFieldAlertViewController.m in Sources */,
@@ -4363,6 +4485,7 @@
 				EA8911C51D18D9E90018773C /* RACCommand.m in Sources */,
 				EA89115B1D18D9E80018773C /* IQKeyboardManager.m in Sources */,
 				EA89117E1D18D9E80018773C /* MJRefreshBackNormalFooter.m in Sources */,
+				EA4151621D7FE7D10009282B /* UIColor+HcdCustom.m in Sources */,
 				EA8910FE1D18D9E80018773C /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */,
 				EA8911DC1D18D9E90018773C /* RACReturnSignal.m in Sources */,
 				EA8912471D18D9E90018773C /* YLGIFImage.m in Sources */,
@@ -4392,6 +4515,7 @@
 				EA8911041D18D9E80018773C /* ASIHTTPRequest.m in Sources */,
 				EAE6B5221D192548000DE707 /* HeInstructionView.m in Sources */,
 				EA8910F61D18D9E80018773C /* AFNetworkActivityIndicatorManager.m in Sources */,
+				EA4151581D7FB0C20009282B /* HeHistoryOrderCell.m in Sources */,
 				EA8911C71D18D9E90018773C /* RACCompoundDisposableProvider.d in Sources */,
 				EA890D9C1D18D8DC0018773C /* QNResponseInfo.m in Sources */,
 				EA8911E81D18D9E90018773C /* RACSubscriber.m in Sources */,
@@ -4430,6 +4554,7 @@
 				EA8911A01D18D9E80018773C /* SINavigationMenuView.m in Sources */,
 				EA8911AF1D18D9E90018773C /* NSFileHandle+RACSupport.m in Sources */,
 				EA8910F11D18D9E80018773C /* AFURLRequestSerialization.m in Sources */,
+				EA4151741D800EC10009282B /* ScanPictureView.m in Sources */,
 				EA89120F1D18D9E90018773C /* SDWebImageDownloaderOperation.m in Sources */,
 				EA890DA11D18D8DC0018773C /* QNHosts.m in Sources */,
 				EA8911671D18D9E80018773C /* KxMenu.m in Sources */,
@@ -4542,9 +4667,11 @@
 				EA6EDC521D7F005300D86F91 /* HeUserCommentVC.m in Sources */,
 				EA89123A1D18D9E90018773C /* UIButton+associate.m in Sources */,
 				EA890DF71D18D9500018773C /* RDVTabBar.m in Sources */,
+				EA4151711D8000960009282B /* SRActionSheet.m in Sources */,
 				EA8911601D18D9E80018773C /* NSArray+Sort.m in Sources */,
 				EA890D831D18D8DC0018773C /* bitstream.c in Sources */,
 				EA89110B1D18D9E80018773C /* DCPicScrollView.m in Sources */,
+				EA41514F1D7FAF1C0009282B /* HeManageAnalyseCell.m in Sources */,
 				EA890D9B1D18D8DC0018773C /* QNHttpManager.m in Sources */,
 				EA8911061D18D9E80018773C /* ASINetworkQueue.m in Sources */,
 				EAE6B4E11D19159F000DE707 /* HeOrderManagementCell.m in Sources */,
@@ -4561,6 +4688,7 @@
 				EA8911B01D18D9E90018773C /* NSIndexSet+RACSequenceAdditions.m in Sources */,
 				EA8911011D18D9E80018773C /* ASIDataDecompressor.m in Sources */,
 				EA890DFD1D18D9760018773C /* HeTabBarVC.m in Sources */,
+				EA41516C1D7FFD260009282B /* HeGoodsInfoEditVC.m in Sources */,
 				EA8910F51D18D9E80018773C /* README.md in Sources */,
 				EA8911641D18D9E80018773C /* CHANGELOG.md in Sources */,
 				EA89116B1D18D9E80018773C /* UIViewController+HUD.m in Sources */,
@@ -4571,6 +4699,7 @@
 				EA8911BD1D18D9E90018773C /* NSString+RACSupport.m in Sources */,
 				EA89121E1D18D9E90018773C /* README.md in Sources */,
 				EA89118E1D18D9E80018773C /* MLTextAttachment.m in Sources */,
+				EA4151491D7FAE5D0009282B /* HeShopActivityCell.m in Sources */,
 				EA8911EC1D18D9E90018773C /* RACTestScheduler.m in Sources */,
 				EA890DD41D18D8F70018773C /* EaseEmotionEscape.m in Sources */,
 				EA89123F1D18D9E90018773C /* VIPhotoView.m in Sources */,
@@ -4611,6 +4740,8 @@
 				EA890C231D18D0AF0018773C /* main.m in Sources */,
 				EA890DF91D18D9500018773C /* RDVTabBarItem.m in Sources */,
 				EA8911891D18D9E80018773C /* MLExpressionManager.m in Sources */,
+				EA4151601D7FE7D10009282B /* HcdDateTimePickerView.m in Sources */,
+				EA4151611D7FE7D10009282B /* MXSCycleScrollView.m in Sources */,
 				EA8911621D18D9E80018773C /* UIView+IQKeyboardToolbar.m in Sources */,
 				EA8911E01D18D9E90018773C /* RACSerialDisposable.m in Sources */,
 				EA8911F51D18D9E90018773C /* UIButton+RACCommandSupport.m in Sources */,
@@ -4645,6 +4776,7 @@
 				EA8911A11D18D9E80018773C /* UIColor+Extension.m in Sources */,
 				EA89118C1D18D9E80018773C /* MLLabelTextStorage.m in Sources */,
 				EA890DE91D18D9300018773C /* HeBaseViewController.m in Sources */,
+				EA41514C1D7FAEEF0009282B /* HeFinanceAccountCell.m in Sources */,
 				EA890D9E1D18D8DC0018773C /* QNStats.m in Sources */,
 				EA6EDC4D1D7F004300D86F91 /* HeHistoryOrderVC.m in Sources */,
 				EA89118A1D18D9E80018773C /* MLLabel.m in Sources */,
@@ -4653,11 +4785,13 @@
 				EA8912161D18D9E90018773C /* UIImageView+HighlightedWebCache.m in Sources */,
 				EA890DD31D18D8F70018773C /* EaseEmojiEmoticons.m in Sources */,
 				EA89111B1D18D9E80018773C /* DFBaseUploadDataService.m in Sources */,
+				EA4151671D7FFBB10009282B /* HeActivityEditVC.m in Sources */,
 				EA8912491D18D9E90018773C /* ZJSwitch.m in Sources */,
 				EA89120C1D18D9E90018773C /* SDWebImageCompat.m in Sources */,
 				EAE6B4EE1D191764000DE707 /* HeBookOrderTableCell.m in Sources */,
 				EA89112E1D18D9E80018773C /* DFTableViewRefreshControl.m in Sources */,
 				EA8911541D18D9E80018773C /* FMDatabasePool.m in Sources */,
+				EA4151551D7FAF9A0009282B /* HeUserCommentCell.m in Sources */,
 				EA890D981D18D8DC0018773C /* QNDns.m in Sources */,
 				EA890E021D18D99E0018773C /* HeBaseTableViewCell.m in Sources */,
 				EA890CD01D18D8CE0018773C /* HeSysbsModel.m in Sources */,
