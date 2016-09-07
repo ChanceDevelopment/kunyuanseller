@@ -40,7 +40,7 @@
         [self addSubview:timeLabel];
         
         CGFloat imageX = CGRectGetMaxX(timeLabel.frame) + 5;
-        CGFloat imageW = 60;
+        CGFloat imageW = 80;
         CGFloat imageH = imageW;
         CGFloat imageY = (cellSize.height - imageH) / 2.0;
         
@@ -73,7 +73,7 @@
         contentLabel.textColor = [UIColor grayColor];
         contentLabel.text = @"奶茶工坊配送到达，收取配送费+10";
         contentLabel.font = [UIFont systemFontOfSize:13.0];
-        contentLabel.textAlignment = NSTextAlignmentCenter;
+        contentLabel.textAlignment = NSTextAlignmentLeft;
         [self addSubview:contentLabel];
         
     }
